@@ -2,298 +2,79 @@
 
 pragma solidity ^0.8.29; 
 
- 
+ "@openzeppelin/contracts/token/ERC20/IERC20.sol"; 
 
-/** 
+ "@openzeppelin/contracts/token/ERC721/IERC721.sol"; 
 
- * @title BTBBZFractionalVault 
+"@openzeppelin/contracts/access/Ownable.sol"; "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol" 
 
- * @dev Converts ERC721 assets into fractional ERC20 shares (wBTBBZ). 
+contract BTBBZFractionalVault is Ownable { 
 
- * Enables redemption, valuation updates, and vault Proof-of-Reserve linking. 
+    IERC20 public immutable btbbz; 
 
- * Integrated with VerifyVault Mint721 NFTs and WrappedBTBBZ ERC20 token. 
+    IERC721 public immutable nftCollection; 
 
- */ 
+    uint256 public constant requiredBTBBZPerNFT = 100 * 10 ** 18; 
 
- 
+    mapping(uint256 => address) public vaultOwners; 
 
-import "@openzeppelin/contracts/token/ERC721/IERC721.sol"; 
-
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol"; 
-
-import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol"; 
-
-import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Pausable.sol"; 
-
-import "@openzeppelin/contracts/access/Ownable.sol"; 
-
-import "@openzeppelin/contracts/security/ReentrancyGuard.sol"; 
-
-import "@openzeppelin/contracts/proxy/utils/UUPSUpgradeable.sol"; 
-
-import "@openzeppelin/contracts/proxy/utils/Initializable.sol"; 
+    mapping(uint256 => bool) public isVaulted; 
 
  
 
-interface IOracleHub { 
+    constructor(address _btbbz, address _nftCollection) { 
 
-    function getAssetValue(address asset, uint256 tokenId) external view returns (uint256); 
+        btbbz = IERC20(_btbbz); 
 
-} 
+        nftCollection = IERC721(_nftCollection); 
 
- 
+    } 
 
-contract BTBBZFractionalVault is 
+    function depositNFT(uint256 tokenId) external { 
 
-    ERC20Burnable, 
+        require(nftCollection.ownerOf(tokenId) == msg.sender, "Not NFT owner"); 
 
-    ERC20Pausable, 
+        nftCollection.transferFrom(msg.sender, address(this), tokenId); 
 
-    Ownable, 
+        require(btbbz.transfer(msg.sender, requiredBTBBZPerNFT), "BTBBZ transfer failed"); 
 
-    ReentrancyGuard, 
+        vaultOwners[tokenId] = msg.sender; 
 
-    Initializable, 
-
-    UUPSUpgradeable 
-
-{ 
-
-    // ============================================================= 
-
-    //                           STATE 
-
-    // ============================================================= 
-
- 
-
-    IERC721 public immutable nftContract; 
-
-    IOracleHub public oracleHub; 
-
-    address public proofOfReserveFeed; 
-
-    mapping(uint256 => address) public depositedBy; 
-
-    mapping(uint256 => uint256) public shareValue; 
-
- 
-
-    event NFTDeposited(address indexed depositor, uint256 indexed tokenId, uint256 sharesMinted); 
-
-    event NFTRedeemed(address indexed redeemer, uint256 indexed tokenId, uint256 sharesBurned); 
-
-    event OracleUpdated(address indexed oracle); 
-
-    event ProofFeedLinked(string feedId); 
-
- 
-
-    /// @custom:oz-upgrades-unsafe-allow constructor 
-
-    constructor(address _nft) ERC20("BTBBZ Vault Share", "wBTBBZ") { 
-
-        nftContract = IERC721(_nft); 
+        isVaulted[tokenId] = true; 
 
     } 
 
  
 
-    function initialize(address _oracleHub, address _admin) public initializer { 
+    function redeemNFT(uint256 tokenId) external { 
 
-        oracleHub = IOracleHub(_oracleHub); 
+        require(isVaulted[tokenId], "NFT not vaulted"); 
 
-        _transferOwnership(_admin); 
+        require(btbbz.transferFrom(msg.sender, address(this), requiredBTBBZPerNFT), "BTBBZ required"); 
 
-    } 
+        nftCollection.transferFrom(address(this), msg.sender, tokenId); 
 
- 
-
-    // ============================================================= 
-
-    //                     INTERNAL UUPS AUTH 
-
-    // ============================================================= 
-
- 
-
-    function _authorizeUpgrade(address newImplementation) internal override onlyOwner {} 
-
- 
-
-    // ============================================================= 
-
-    //                         DEPOSIT LOGIC 
-
-    // ============================================================= 
-
- 
-
-    function depositNFT(address from, uint256 tokenId) 
-
-        external 
-
-        nonReentrant 
-
-        whenNotPaused 
-
-        returns (uint256 shares) 
-
-    { 
-
-        require(msg.sender == from || nftContract.getApproved(tokenId) == msg.sender, "Not approved"); 
-
-        nftContract.transferFrom(from, address(this), tokenId); 
-
- 
-
-        // get valuation from OracleHub 
-
-        uint256 value = oracleHub.getAssetValue(address(nftContract), tokenId); 
-
-        require(value > 0, "Invalid oracle value"); 
-
- 
-
-        // 1 share per unit (e.g., 1 BTBBZ = $1 value equivalent) 
-
-        shares = value; 
-
-        _mint(from, shares); 
-
- 
-
-        depositedBy[tokenId] = from; 
-
-        shareValue[tokenId] = value; 
-
- 
-
-        emit NFTDeposited(from, tokenId, shares); 
+        isVaulted[tokenId] = false; 
 
     } 
 
  
 
-    // ============================================================= 
+    function vaultStatus(uint256 tokenId) external view returns (bool) { 
 
-    //                         REDEMPTION 
-
-    // ============================================================= 
-
- 
-
-    function redeemShares(uint256 tokenId) external nonReentrant whenNotPaused { 
-
-        address depositor = depositedBy[tokenId]; 
-
-        require(depositor != address(0), "Token not deposited"); 
-
-        require(balanceOf(msg.sender) >= shareValue[tokenId], "Insufficient shares"); 
-
- 
-
-        uint256 burnAmt = shareValue[tokenId]; 
-
-        _burn(msg.sender, burnAmt); 
-
- 
-
-        nftContract.transferFrom(address(this), msg.sender, tokenId); 
-
- 
-
-        delete depositedBy[tokenId]; 
-
-        delete shareValue[tokenId]; 
-
- 
-
-        emit NFTRedeemed(msg.sender, tokenId, burnAmt); 
+        return isVaulted[tokenId]; 
 
     } 
 
  
 
-    // ============================================================= 
+    function withdrawBTBBZ(uint256 amount) external onlyOwner { 
 
-    //                        ADMIN CONTROLS 
-
-    // ============================================================= 
-
- 
-
-    function pause() external onlyOwner { 
-
-        _pause(); 
-
-    } 
-
- 
-
-    function unpause() external onlyOwner { 
-
-        _unpause(); 
-
-    } 
-
- 
-
-    function updateOracleHub(address newOracle) external onlyOwner { 
-
-        oracleHub = IOracleHub(newOracle); 
-
-        emit OracleUpdated(newOracle); 
-
-    } 
-
- 
-
-    function linkProofFeed(address feed) external onlyOwner { 
-
-        proofOfReserveFeed = feed; 
-
-        emit ProofFeedLinked("Chainlink BTBBZ Feed Linked"); 
-
-    } 
-
- 
-
-    // ============================================================= 
-
-    //                        VIEW FUNCTIONS 
-
-    // ============================================================= 
-
- 
-
-    function getVaultStatus(uint256 tokenId) 
-
-        external 
-
-        view 
-
-        returns ( 
-
-            address depositor, 
-
-            uint256 value, 
-
-            uint256 shares 
-
-        ) 
-
-    { 
-
-        return (depositedBy[tokenId], shareValue[tokenId], balanceOf(depositedBy[tokenId])); 
+        require(btbbz.transfer(msg.sender, amount), "Withdraw failed"); 
 
     } 
 
 } 
 
-npx hardhat run scripts/deploy_BTBBZFractionalVault.js --network linea 
+""" 
 
-["0x...Mint721_Collection_Address"] 
-
-["0x...OracleHub_Address", "0x...Admin_Owner_Address"]

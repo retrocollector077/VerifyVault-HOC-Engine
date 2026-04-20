@@ -1,128 +1,191 @@
+
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.29;
-
-import "@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol";
-import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 
 interface IERC20 {
     function transfer(address, uint256) external returns (bool);
 }
 
+interface IERC721 {
+    function transferFrom(address, address, uint256) external;
+}
+
 /**
  * @title AuctionHouse
- * @notice Liquidates vault collateral through competitive bidding.
- * Designed for upgradeability, security, and production use.
+ * @notice Liquidates vault collateral through competitive bidding with fees and safeguards.
  */
-contract AuctionHouse is Initializable, AccessControlUpgradeable {
-    // Roles
-    bytes32 public constant ADMIN_ROLE = keccak256("ADMIN_ROLE");
-
+contract AuctionHouse {
     struct Auction {
-        address user;            // Vault owner
-        address vault;           // Vault address
-        uint256 highestBid;      // Current highest bid (in wei)
-        address highestBidder;   // Bidder address
-        bool active;             // Is auction active
-        uint64 startTime;        // Auction start timestamp
-        uint64 endTime;          // Auction end timestamp
+        address seller;               // Owner of the collateral (vault owner)
+        address vault;                // Vault address (NFT collection)
+        uint256 tokenId;              // NFT token ID
+        uint256 highestBid;           // Current highest bid
+        address highestBidder;        // Highest bidder address
+        uint256 startTime;            // Auction start timestamp
+        uint256 endTime;              // Auction end timestamp
+        bool active;                  // Is auction active?
+        bool settled;                 // Has auction been settled?
     }
 
-    // Mapping auction ID to Auction
-    mapping(uint256 => Auction) public auctions;
-    uint256 public auctionCount;
+    // Configurable parameters
+    uint256 public minBidIncrementBps = 500; // 5%
+    uint256 public auctionDuration = 3 days;
+    uint256 public feeBps = 200;             // 2% fee on final bid
+    address public owner;
 
-    // Pending refunds for bidders
-    mapping(address => uint256) public pendingRefunds;
+    // Your wallet address for fee collection (hardcoded)
+    address public constant feeRecipient = 0x8B8143864297858b81d02b76dF2a5C1824eA01E8;
+
+    uint256 public auctionCount;
+    mapping(uint256 => Auction) public auctions;
+    mapping(address => uint256) public pendingReturns; // Refunds for outbid bidders
 
     // Events
-    event AuctionStarted(uint256 indexed id, address indexed user, address indexed vault, uint64 startTime, uint64 endTime);
+    event AuctionStarted(uint256 indexed id, address indexed vault, uint256 tokenId, address indexed seller, uint256 endTime);
     event NewBid(uint256 indexed id, address indexed bidder, uint256 amount);
-    event AuctionClosed(uint256 indexed id, address indexed winner, uint256 bidAmount);
+    event BidWithdrawn(address indexed bidder, uint256 amount);
+    event AuctionExtended(uint256 indexed id, uint256 newEndTime);
+    event AuctionClosed(uint256 indexed id, address indexed winner, uint256 finalPrice);
+    event FeesUpdated(uint256 newFeeBps);
+    event BidIncrementUpdated(uint256 newMinBidIncrementBps);
+    event AuctionDurationUpdated(uint256 newDuration);
+    event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
 
-    /// @custom:oz-upgrades-unsafe-allow constructor
-    constructor() initializer {}
-
-    function initialize() public initializer {
-        __AccessControl_init();
-
-        // Grant default admin role to deployer
-        _setupRole(DEFAULT_ADMIN_ROLE, msg.sender);
-        _setupRole(ADMIN_ROLE, msg.sender);
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Not owner");
+        _;
     }
 
-    // Only admin can start auction
-    function startAuction(address user, address vault, uint64 durationSeconds) external onlyRole(ADMIN_ROLE) returns (uint256) {
-        require(user != address(0), "Invalid user");
-        require(vault != address(0), "Invalid vault");
-        require(durationSeconds > 0, "Duration zero");
+    modifier onlyActiveAuction(uint256 id) {
+        require(auctions[id].active, "Auction not active");
+        _;
+    }
 
+    constructor() {
+        owner = msg.sender;
+    }
+
+    // Admin functions
+    function setFeeBps(uint256 _feeBps) external onlyOwner {
+        require(_feeBps <= 1000, "Fee too high"); // Max 10%
+        feeBps = _feeBps;
+        emit FeesUpdated(_feeBps);
+    }
+
+    function setBidIncrementBps(uint256 _minBidIncrementBps) external onlyOwner {
+        require(_minBidIncrementBps <= 10000, "Too high");
+        minBidIncrementBps = _minBidIncrementBps;
+        emit BidIncrementUpdated(_minBidIncrementBps);
+    }
+
+    function setAuctionDuration(uint256 _duration) external onlyOwner {
+        require(_duration >= 1 hours && _duration <= 7 days, "Invalid duration");
+        auctionDuration = _duration;
+        emit AuctionDurationUpdated(_duration);
+    }
+
+    function transferOwnership(address newOwner) external onlyOwner {
+        require(newOwner != address(0), "Zero address");
+        emit OwnershipTransferred(owner, newOwner);
+        owner = newOwner;
+    }
+
+    /**
+     * @notice Start an auction for an NFT collateral.
+     * @param vault Address of the NFT collection (ERC721).
+     * @param tokenId Token ID.
+     */
+    function startAuction(address vault, uint256 tokenId) external onlyOwner returns (uint256) {
+        uint256 endTime = block.timestamp + auctionDuration;
         auctionCount++;
-        uint64 startTime = uint64(block.timestamp);
-        uint64 endTime = startTime + durationSeconds;
-
-        auctions[auctionCount] = Auction(user, vault, 0, address(0), true, startTime, endTime);
-        emit AuctionStarted(auctionCount, user, vault, startTime, endTime);
+        auctions[auctionCount] = Auction({
+            seller: msg.sender,
+            vault: vault,
+            tokenId: tokenId,
+            highestBid: 0,
+            highestBidder: address(0),
+            startTime: block.timestamp,
+            endTime: endTime,
+            active: true,
+            settled: false
+        });
+        emit AuctionStarted(auctionCount, vault, tokenId, msg.sender, endTime);
         return auctionCount;
     }
 
-    // Bid function (accepts ETH)
-    function bid(uint256 id) external payable {
+    /**
+     * @notice Place a bid on an active auction.
+     * @param id Auction ID.
+     */
+    function bid(uint256 id) external payable onlyActiveAuction(id) {
         Auction storage a = auctions[id];
-        require(a.active, "Auction not active");
-        require(block.timestamp >= a.startTime && block.timestamp <= a.endTime, "Auction not ongoing");
-        require(msg.value > a.highestBid, "Bid too low");
+        require(block.timestamp < a.endTime, "Auction ended");
+        uint256 bidAmount = msg.value;
+        require(bidAmount > a.highestBid, "Bid too low");
+
+        uint256 minRequiredBid = a.highestBid + ((a.highestBid * minBidIncrementBps) / 10000);
+        require(bidAmount >= minRequiredBid, "Bid not high enough");
 
         // Refund previous highest bidder
         if (a.highestBidder != address(0)) {
-            pendingRefunds[a.highestBidder] += a.highestBid;
+            pendingReturns[a.highestBidder] += a.highestBid;
         }
 
-        a.highestBid = msg.value;
+        // Update highest bid
+        a.highestBid = bidAmount;
         a.highestBidder = msg.sender;
 
-        emit NewBid(id, msg.sender, msg.value);
-    }
+        emit NewBid(id, msg.sender, bidAmount);
 
-    // Claim refund for outbid bidders
-    function claimRefund() external {
-        uint256 amount = pendingRefunds[msg.sender];
-        require(amount > 0, "No funds");
-        pendingRefunds[msg.sender] = 0;
-        (bool success, ) = msg.sender.call{value: amount}("");
-        require(success, "Refund transfer failed");
-    }
-
-    // Close auction (only admin)
-    function closeAuction(uint256 id) external onlyRole(ADMIN_ROLE) {
-        Auction storage a = auctions[id];
-        require(a.active, "Already closed");
-        require(block.timestamp > a.endTime, "Auction not ended");
-        a.active = false;
-
-        // Transfer collateral from vault to winner (requires vault interface)
-        // For demonstration, we just emit event
-        emit AuctionClosed(id, a.highestBidder, a.highestBid);
-
-        // Note: In production, integrate vault transfer logic here
-    }
-
-    // Admin can cancel auction (optional)
-    function cancelAuction(uint256 id) external onlyRole(ADMIN_ROLE) {
-        Auction storage a = auctions[id];
-        require(a.active, "Already closed");
-        a.active = false;
-        // Refund highest bidder if any bid exists
-        if (a.highestBid > 0 && a.highestBidder != address(0)) {
-            uint256 refundAmount = a.highestBid;
-            a.highestBid = 0;
-            (bool success, ) = a.highestBidder.call{value: refundAmount}("");
-            require(success, "Refund failed");
+        // Extend auction if close to end
+        uint256 timeLeft = a.endTime - block.timestamp;
+        if (timeLeft < 1 hours) {
+            a.endTime += 15 minutes;
+            emit AuctionExtended(id, a.endTime);
         }
-        emit AuctionClosed(id, address(0), 0);
     }
 
-    // Getter for auction info
-    function getAuction(uint256 id) external view returns (Auction memory) {
-        return auctions[id];
+    /**
+     * @notice Withdraw bid funds if outbid.
+     */
+    function withdraw() external {
+        uint256 amount = pendingReturns[msg.sender];
+        require(amount > 0, "No funds to withdraw");
+        pendingReturns[msg.sender] = 0;
+        payable(msg.sender).transfer(amount);
+        emit BidWithdrawn(msg.sender, amount);
     }
+
+    /**
+     * @notice Close auction after end time, transfer NFT, and distribute proceeds.
+     * @param id Auction ID.
+     */
+    function closeAuction(uint256 id) external onlyOwner onlyActiveAuction(id) {
+        Auction storage a = auctions[id];
+        require(block.timestamp >= a.endTime, "Auction not ended");
+        a.active = false;
+
+        address winner = a.highestBidder;
+        uint256 finalPrice = a.highestBid;
+
+        require(winner != address(0), "No bids placed");
+
+        // Transfer NFT from vault to winner
+        IERC721(a.vault).transferFrom(address(this), winner, a.tokenId);
+
+        // Distribute funds
+        uint256 feeAmount = (finalPrice * feeBps) / 10000;
+        uint256 sellerProceeds = finalPrice - feeAmount;
+
+        // Transfer fee to feeRecipient
+        payable(feeRecipient).transfer(feeAmount);
+        // Transfer proceeds to seller (original owner)
+        payable(a.seller).transfer(sellerProceeds);
+
+        emit AuctionClosed(id, winner, finalPrice);
+    }
+
+    // Fallback functions to accept ETH
+    receive() external payable {}
+    fallback() external payable {}
 }
