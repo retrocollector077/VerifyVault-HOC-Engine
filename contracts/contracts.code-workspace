@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "VerifyVault-HOC-Engine",
+			"path": "../VerifyVault-HOC-Engine"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,6994 @@
+[ 
+
+  { 
+
+    "name": "2021 Contenders Tom Brady Winning Ticket #WTTBR PSA 8", 
+
+    "symbol": "TB-WTTBR", 
+
+    "quanGty": "1", 
+
+    "btcPriceSats": 1130264, 
+
+    "usdReference": 1285.54, 
+
+    "btcUsdAtCalc": 113738.0, 
+
+    "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+    "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+    "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+    "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+    "metadata": { 
+
+      "player": "Tom Brady", 
+
+      "year": 2021, 
+
+      "set": "Contenders", 
+
+      "card_number": "WTTBR", 
+
+      "grade": "PSA 8" 
+
+    }, 
+
+    "raw": "2021 Contenders Tom Brady Winning Ticket #WTTBR PSA 8" 
+
+  }, 
+
+  { 
+
+    "name": "2021 CSG Panini Prestige Xtra Points Sunburst # Patrick Mahomes II CSG 10", 
+
+    "symbol": "PM-PPXP", 
+
+    "quanGty": "1", 
+
+    "btcPriceSats": 1130264, 
+
+    "usdReference": 1285.54, 
+
+    "btcUsdAtCalc": 113738.0, 
+
+    "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+    "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+    "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+    "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+    "metadata": { 
+
+      "player": "Patrick Mahomes II", 
+
+      "year": 2021, 
+
+      "set": "Panini Prestige", 
+
+      "variation": "Xtra Points Sunburst", 
+
+      "grade": "CSG 10" 
+
+    }, 
+
+    "raw": "2021 CSG Panini Prestige Xtra Points Sunburst # Patrick Mahomes II CSG 10" 
+
+  } 
+
+] 
+
+
+
+[] 
+
+“name”: “2021 Contenders Tom Brady Winning Ticket #WTTBR PSA 8”, 
+
+“symbol”: “TB-WTTBR-PSA8”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 600000, 
+
+“usdReference”: 682.43, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “12/18/2021”, 
+
+“player”: “Tom Brady”, 
+
+“year”: 2021, 
+
+“set”: “Contenders”, 
+
+“cardNumber”: “WTTBR”, 
+
+“gradeCompany”: “PSA”, 
+
+“grade”: “8”, 
+
+“variant”: “Winning Ticket”, 
+
+“pricingTier”: “PSA 8 modern”, 
+
+“notes”: “Iconic insert from Contenders.” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “12/18/2021 1 2021 Contenders Tom Brady Winning Ticket #WTTBR PSA 8 Tom Brady 2021 Contenders” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2021 Panini Prestige Xtra Points Sunburst Patrick Mahomes II CSG 10”, 
+
+“symbol”: “PM-XPS-CSG10-2021”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 1130264, 
+
+“usdReference”: 1285.54, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “01/18/2021”, 
+
+“player”: “Patrick Mahomes II”, 
+
+“year”: 2021, 
+
+“set”: “Panini Prestige”, 
+
+“cardNumber”: “N/A”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “10”, 
+
+“variant”: “Xtra Points Sunburst”, 
+
+“pricingTier”: “Gem Mint modern”, 
+
+“notes”: “CSG 10 gem; sunburst parallel.” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “01/18/2021 1 2021 CSG  Panini Prestige Xtra Points Sunburst # Patrick Mahomes II CSG 10 Panini Prestige 2021 CSG” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2010 Topps Chrome Tom Brady Refractor #C80 CSG 9”, 
+
+“symbol”: “TB-TC-C80-CSG9”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 500000, 
+
+“usdReference”: 568.69, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “10/14/2017”, 
+
+“player”: “Tom Brady”, 
+
+“year”: 2010, 
+
+“set”: “Topps Chrome”, 
+
+“cardNumber”: “C80”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “9”, 
+
+“variant”: “Refractor”, 
+
+“pricingTier”: “CSG 9 modern chrome”, 
+
+“notes”: “Brady Chrome refractor.” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “10/14/2017 1 2010 Topps Chrome Tom Brady Refractor #C80 CSG 9 Tom Brady 2010 Topps Chrome” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2020 Panini Mosaic Tom Brady Pink Camo #135 CSG 10”, 
+
+“symbol”: “TB-MOS-135-PC-CSG10”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 1130264, 
+
+“usdReference”: 1285.54, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “07/20/2020”, 
+
+“player”: “Tom Brady”, 
+
+“year”: 2020, 
+
+“set”: “Panini Mosaic”, 
+
+“cardNumber”: “135”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “10”, 
+
+“variant”: “Pink Camo”, 
+
+“pricingTier”: “Gem Mint parallel”, 
+
+“notes”: “Retail camo parallel.” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “07/20/2020 1 2020 Panini Mosaic Tom Brady Pink Camo #135 CSG 10 Tom Brady 2020 Panini Mosaic” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2022 Parkside NWSL Ifeoma Onumonu Signature Series #SS-IO PSA 6/Auto 10”, 
+
+“symbol”: “IO-SSIO-PSA6A10”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 300000, 
+
+“usdReference”: 341.21, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “11/16/2022”, 
+
+“player”: “Ifeoma Onumonu”, 
+
+“year”: 2022, 
+
+“set”: “Parkside NWSL”, 
+
+“cardNumber”: “SS-IO”, 
+
+“gradeCompany”: “PSA”, 
+
+“grade”: “6 (Auto 10)”, 
+
+“variant”: “Signature Series Autographs”, 
+
+“pricingTier”: “Auto 10 / low card grade”, 
+
+“notes”: “Auto 10 with lower card grade.” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “11/16/2022 1 2022 Parkside NWSL Ifeoma Omumonu Signature Series Autographs #SS-IO PSA 6/Auto 10 Ifeoma Omumonu 2022 Parkside NWSL” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2018 Panini Hoops Kobe Bryant Silver Prizm 042/199 #296 CSG 10”, 
+
+“symbol”: “KB-HOOPS-296-SIL199-CSG10”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 1450000, 
+
+“usdReference”: 1649.20, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “06/18/2020”, 
+
+“player”: “Kobe Bryant”, 
+
+“year”: 2018, 
+
+“set”: “Panini Hoops”, 
+
+“cardNumber”: “296”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “10”, 
+
+“variant”: “Silver Prizm /199”, 
+
+“serialNumbered”: “042/199”, 
+
+“pricingTier”: “Gem Mint / serial-numbered”, 
+
+“notes”: “Silver Prizm numbered to 199.” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “06/18/2020 1 2018 Panini Hoops Kobe Bryant Silver Prizm 042/199 #296 CSG 10 Kobe Bryant 2018 Panini Hoops” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2021 Panini Prizm Draft Picks Trevor Lawrence Green Prizm #161 CSG 9.5”, 
+
+“symbol”: “TL-PRIZM-161-GREEN-CSG9_5”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 750000, 
+
+“usdReference”: 853.04, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “09/18/2021”, 
+
+“player”: “Trevor Lawrence”, 
+
+“year”: 2021, 
+
+“set”: “Panini Prizm Draft Picks”, 
+
+“cardNumber”: “161”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “9.5”, 
+
+“variant”: “Green Prizm”, 
+
+“pricingTier”: “CSG 9.5 modern”, 
+
+“notes”: “College uniform parallel.” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “09/18/2021 1 2021 Panini Prizm Draft Picks Trevor Lawrence Green Prizm #161  CSG 9.5 Trevor Lawrence 2021 Panini Prizm Draft Picks” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2021 Panini Prizm Draft Picks Trevor Lawrence Green Prizm #106 CSG 9.5”, 
+
+“symbol”: “TL-PRIZM-106-GREEN-CSG9_5”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 750000, 
+
+“usdReference”: 853.04, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “10/18/2021”, 
+
+“player”: “Trevor Lawrence”, 
+
+“year”: 2021, 
+
+“set”: “Panini Prizm Draft Picks”, 
+
+“cardNumber”: “106”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “9.5”, 
+
+“variant”: “Green Prizm”, 
+
+“pricingTier”: “CSG 9.5 modern”, 
+
+“notes”: “Green Prizm parallel.” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “10/18/2021 1 2021 Panini Prizm Draft Picks  Trevor Lawrence Green Prizm # 106  CSG 9.5 Trevor Lawrence 2021 Panini Prizm Draft Picks” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2019 Panini Hoops Premium Stock Luka Doncic NBA City Red Prizm #30 CSG 10”, 
+
+“symbol”: “LD-HPS-30-CITYRED-CSG10”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 1130264, 
+
+“usdReference”: 1285.54, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “02/18/2020”, 
+
+“player”: “Luka Doncic”, 
+
+“year”: 2019, 
+
+“set”: “Panini Hoops Premium Stock”, 
+
+“cardNumber”: “30”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “10”, 
+
+“variant”: “NBA City Red Prizm”, 
+
+“pricingTier”: “Gem Mint insert”, 
+
+“notes”: “Insert from Hoops Premium.” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “02/18/2020 1 2019 Panini Hoops Premium Stock Luka Doncic NBA City Red Prizm #30 CSG 10 Luka Doncic 2019 Panini Hoops Premium Stock” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2019 Topps Match Attax UCL Cristiano Ronaldo Golden Squad LE #LE12 CSG 9”, 
+
+“symbol”: “CR-MATCH-LE12-CSG9”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 500000, 
+
+“usdReference”: 568.69, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “12/18/2020”, 
+
+“player”: “Cristiano Ronaldo”, 
+
+“year”: 2019, 
+
+“set”: “Topps Match Attax Champions League”, 
+
+“cardNumber”: “LE12”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “9”, 
+
+“variant”: “Golden Squad Limited Edition”, 
+
+“pricingTier”: “CSG 9 soccer”, 
+
+“notes”: “LE Ronaldo from UCL Match Attax.” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “12/18/2020 1 2019 Topps Match Attax Champions UEFA Champions League Cristiano Ronaldo Golden Squad Limited Edition #LE12 CSG 9 Cristiano Ronaldo 2019 Topps Match Attax Champions UEFA Champions League” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2018 Diamond Kings Walker Buehler Rookie Materials Sig. PSA 9”, 
+
+“symbol”: “WB-DK-RMS-PSA9”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 750000, 
+
+“usdReference”: 853.04, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “07/11/2020”, 
+
+“player”: “Walker Buehler”, 
+
+“year”: 2018, 
+
+“set”: “Panini Diamond Kings”, 
+
+“cardNumber”: “N/A”, 
+
+“gradeCompany”: “PSA”, 
+
+“grade”: “9”, 
+
+“variant”: “Rookie Materials Signatures”, 
+
+“pricingTier”: “PSA 9 auto/mem”, 
+
+“notes”: “Memorabilia signature rookie.” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “07/11/2020 1 2018 Panini Dmd.Kings Walker Buehler Dk Rookie Materials Sig. PSA 9 Walker Buehler 2018 Panini Dmd.Kings” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2019 Panini Chronicles Jared Goff Prime Swatches #PS9 Raw”, 
+
+“symbol”: “JG-CHRON-PS9-RAW”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 150000, 
+
+“usdReference”: 170.61, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “01/22/2020”, 
+
+“player”: “Jared Goff”, 
+
+“year”: 2019, 
+
+“set”: “Panini Chronicles”, 
+
+“cardNumber”: “PS9”, 
+
+“gradeCompany”: “Raw”, 
+
+“grade”: “N/A”, 
+
+“variant”: “Prime Swatches (mem)”, 
+
+“pricingTier”: “Raw modern mem”, 
+
+“notes”: “Unslabbed memorabilia card.” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “01/22/2020 1 2019 Panini Chronicles Jared Goff Prime Swatches  #PS9 Raw Jared Goff 2019 Panini Chronicles” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2021 Panini Prizm Aaron Judge Stained Glass Purple Prizm #SG-5 CSG 9.5”, 
+
+“symbol”: “AJ-PRIZM-SG5-PURP-CSG9_5”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 750000, 
+
+“usdReference”: 853.04, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “02/19/2022”, 
+
+“player”: “Aaron Judge”, 
+
+“year”: 2021, 
+
+“set”: “Panini Prizm”, 
+
+“cardNumber”: “SG-5”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “9.5”, 
+
+“variant”: “Stained Glass Purple Prizm”, 
+
+“pricingTier”: “CSG 9.5 insert”, 
+
+“notes”: “Popular Stained Glass insert.” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “02/19/2022 1 2021  Panini Prizm Aaron Judge Stained Glass Purple Prizm #SG-5  CSG 9.5 Aaron Judge 2021 Panini Prizm” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2019 Match Attax UCL Cristiano Ronaldo World Class Superstar #WCU8 Raw”, 
+
+“symbol”: “CR-MATCH-WCU8-RAW”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 150000, 
+
+“usdReference”: 170.61, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “05/18/2020”, 
+
+“player”: “Cristiano Ronaldo”, 
+
+“year”: 2019, 
+
+“set”: “Topps Match Attax UEFA Champions League”, 
+
+“cardNumber”: “WCU8”, 
+
+“gradeCompany”: “Raw”, 
+
+“grade”: “N/A”, 
+
+“variant”: “World Class Superstar”, 
+
+“pricingTier”: “Raw soccer insert”, 
+
+“notes”: “Unslabbed Match Attax insert.” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “05/18/2020 1 2019 Toops Match Attax UEFA Champions League  Cristiano Ronaldo World  Class Superstar #WCU8 Raw Cristiano Ronaldo 2019 Toops Match Attax UEFA Champions League” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2021 Panini NBA Sticker & Card Chris Duarte Euro Silver #93 Raw”, 
+
+“symbol”: “CD-NBASC-93-EUROSIL-RAW”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 150000, 
+
+“usdReference”: 170.61, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “11/13/2021”, 
+
+“player”: “Chris Duarte”, 
+
+“year”: 2021, 
+
+“set”: “Panini NBA Sticker & Card Collection (European Edition)”, 
+
+“cardNumber”: “93”, 
+
+“gradeCompany”: “Raw”, 
+
+“grade”: “N/A”, 
+
+“variant”: “Silver Card”, 
+
+“pricingTier”: “Raw modern sticker/card”, 
+
+“notes”: “European edition silver.” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “11/13/2021 1 2021 Panini NBA Sticker & Card Collection  Chris Duarte European Edition Silver Card #93 Raw Chris Duarte 2021 Panini NBA Sticker & Card Collection” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2019 Match Attax UCL Lionel Messi #BAR 11 Raw”, 
+
+“symbol”: “LM-MATCH-BAR11-RAW”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 150000, 
+
+“usdReference”: 170.61, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “12/18/2020”, 
+
+“player”: “Lionel Messi”, 
+
+“year”: 2019, 
+
+“set”: “Topps Match Attax UEFA Champions League”, 
+
+“cardNumber”: “BAR 11”, 
+
+“gradeCompany”: “Raw”, 
+
+“grade”: “N/A”, 
+
+“variant”: “Base/Team issue”, 
+
+“pricingTier”: “Raw soccer”, 
+
+“notes”: “Barça team card.” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “12/18/2020 1 2019 Topps Match Attax UEFA Champions League Lionel Messi #BAR 11 Raw Lionel Messi 2019 Topps Match Attax UEFA Champions League” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2016 Match Attax UCL Pepe 2015/16 Winners #RM5 Raw”, 
+
+“symbol”: “PEPE-MATCH-RM5-RAW”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 150000, 
+
+“usdReference”: 170.61, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “05/18/2018”, 
+
+“player”: “Pepe”, 
+
+“year”: 2016, 
+
+“set”: “Topps Match Attax UEFA Champions League”, 
+
+“cardNumber”: “RM5”, 
+
+“gradeCompany”: “Raw”, 
+
+“grade”: “N/A”, 
+
+“variant”: “2015/16 Winners”, 
+
+“pricingTier”: “Raw soccer”, 
+
+“notes”: “Real Madrid winners subset.” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “05/18/2018 1 2016 Topps Match Attax UEFA Champions League Pepe 2015/16 Winners #RM5 Raw Pepe 2016 Topps Match Attax UEFA Champions League” 
+
+} 
+
+} 
+
+] 
+
+[ 
+
+{ 
+
+“name”: “2019 Panini Revolution Luka Doncic #73 CSG 9”, 
+
+“symbol”: “LD-REV-73-CSG9”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 500000, 
+
+“usdReference”: 568.69, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “04/20/2020”, 
+
+“player”: “Luka Doncic”, 
+
+“year”: 2019, 
+
+“set”: “Panini Revolution”, 
+
+“cardNumber”: “73”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “9”, 
+
+“variant”: “Base”, 
+
+“pricingTier”: “CSG 9 modern” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “04/20/2020 1 2019 Panini Revolution Luka Doncic #73 CSG 9 Luka Doncic 2019 Panini Revolution” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2003-04 Upper Deck LeBron James LeBron’s Diary #LJ15 CSG 8”, 
+
+“symbol”: “LJ-UD-LJ15-CSG8”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 600000, 
+
+“usdReference”: 682.43, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “12/20/2022”, 
+
+“player”: “LeBron James”, 
+
+“year”: 2003, 
+
+“set”: “Upper Deck”, 
+
+“cardNumber”: “LJ15”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “8”, 
+
+“variant”: “LeBron’s Diary insert”, 
+
+“pricingTier”: “Insert / early LeBron” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “12/20/2022 1 2003-04 Upper Deck  LeBron James Lebron’s Diary #LJ15  CSG 8 LeBron James 2003-04 Upper Deck” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2020 Panini Mosaic Rob Gronkowski Pink Camo Prizm #136 CSG 9”, 
+
+“symbol”: “RG-MOS-136-PC-CSG9”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 300000, 
+
+“usdReference”: 341.21, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “09/20/2020”, 
+
+“player”: “Rob Gronkowski”, 
+
+“year”: 2020, 
+
+“set”: “Panini Mosaic”, 
+
+“cardNumber”: “136”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “9”, 
+
+“variant”: “Pink Camo Prizm”, 
+
+“pricingTier”: “Prizm parallel / CSG 9” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “09/20/2020 1 2020 Panini Mosaic Rob Gronkowski Pink Camo Prizm #136 CSG 9 Rob Gronkowski 2020 Panini Mosaic” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2019-20 Hoops Premium Hoops Ink Monte Morris Holo Prizm #HI-MON PSA 10 / Auto 10”, 
+
+“symbol”: “MM-HPS-HI_MON-PSA10A10”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 1130264, 
+
+“usdReference”: 1285.54, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “07/20/2020”, 
+
+“player”: “Monte Morris”, 
+
+“year”: 2019, 
+
+“set”: “Panini Hoops Premium Stock”, 
+
+“cardNumber”: “HI-MON”, 
+
+“gradeCompany”: “PSA”, 
+
+“grade”: “10 (Auto 10)”, 
+
+“variant”: “Hoops Ink Holo Prizm”, 
+
+“pricingTier”: “Gem Mint auto / Holo” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “07/20/2020 1 2019-20 Panini Hoops Premium Stock Hoops Ink Monte Morris Hoops Ink Holo Prizm #HI-MON PSA 10/Auto 10 Monte Morris 2019-20 Panini Hoops Premium Stock Hoops Ink” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2021 Topps Through the Years Fernando Tatis Jr. #TTY-12 CSG 10”, 
+
+“symbol”: “FTJ-TOPPS-TTY12-CSG10”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 300000, 
+
+“usdReference”: 341.21, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “09/20/2021”, 
+
+“player”: “Fernando Tatis Jr.”, 
+
+“year”: 2021, 
+
+“set”: “Topps”, 
+
+“cardNumber”: “TTY-12”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “10”, 
+
+“variant”: “Through the Years”, 
+
+“pricingTier”: “Insert / Gem Mint” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “09/20/2021 1 2021 Topps Fernando Tatis Jr. Topps Through the Years #TTY-12 CSG 10 Fernando Tatis Jr. 2021 Topps” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2021 Topps 86’ Silver Pack 52’ Redux Chrome Refractor Fernando Tatis Jr. #TC52-32 CSG 10”, 
+
+“symbol”: “FTJ-TC52-32-CSG10”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 300000, 
+
+“usdReference”: 341.21, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “07/20/2021”, 
+
+“player”: “Fernando Tatis Jr.”, 
+
+“year”: 2021, 
+
+“set”: “Topps 86’ Silver Pack / 52’ Redux Chrome”, 
+
+“cardNumber”: “TC52-32”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “10”, 
+
+“variant”: “Chrome Refractor”, 
+
+“pricingTier”: “Chrome / Gem Mint” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “07/20/2021 1 2021 Topps 86’ Silver Pack 52’ Redux Chrome Fernando Tatis Jr. 52’ Redux Chrome Refractor #TC52-32 CSG 10 Fernando Tatis Jr. 2021 Topps 86’ Silver Pack 52’ Redux Chrome” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2021 Topps Heritage Gleyber Torres In Action #292 Raw”, 
+
+“symbol”: “GT-HER-292-RAW”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 150000, 
+
+“usdReference”: 170.61, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “09/20/2021”, 
+
+“player”: “Gleyber Torres”, 
+
+“year”: 2021, 
+
+“set”: “Topps Heritage”, 
+
+“cardNumber”: “292”, 
+
+“gradeCompany”: “Raw”, 
+
+“grade”: “N/A”, 
+
+“variant”: “In Action”, 
+
+“pricingTier”: “Raw modern” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “09/20/2021 1 2021 Topps Heritage Gleyber Torres In action  #292 Raw Gleyber Torres 2021 Topps Heritage” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2021 Topps Heritage Justin Smoak Pop #332 Raw”, 
+
+“symbol”: “JS-HER-332-RAW”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 150000, 
+
+“usdReference”: 170.61, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “09/20/2021”, 
+
+“player”: “Justin Smoak”, 
+
+“year”: 2021, 
+
+“set”: “Topps Heritage”, 
+
+“cardNumber”: “332”, 
+
+“gradeCompany”: “Raw”, 
+
+“grade”: “N/A”, 
+
+“variant”: “Pop”, 
+
+“pricingTier”: “Raw modern” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “09/20/2021 1 2021 Topps Heritage Justin Smoak Pop #332 Raw Justin Smoak 2021 Topps Heritage” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2021 Topps Heritage Bo Bichette #293b Raw”, 
+
+“symbol”: “BB-HER-293B-RAW”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 150000, 
+
+“usdReference”: 170.61, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “09/20/2021”, 
+
+“player”: “Bo Bichette”, 
+
+“year”: 2021, 
+
+“set”: “Topps Heritage”, 
+
+“cardNumber”: “293b”, 
+
+“gradeCompany”: “Raw”, 
+
+“grade”: “N/A”, 
+
+“variant”: “Base / short-print code b”, 
+
+“pricingTier”: “Raw modern” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “09/20/2021 1 2021 Toops Heritage Bo Bichette #293b Raw Bo Bichette 2021 Toops Heritage” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2021 Topps Heritage Eloy Jimenez Base In Action #192 Raw”, 
+
+“symbol”: “EJ-HER-192-RAW”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 150000, 
+
+“usdReference”: 170.61, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “12/21/2022”, 
+
+“player”: “Eloy Jimenez”, 
+
+“year”: 2021, 
+
+“set”: “Topps Heritage”, 
+
+“cardNumber”: “192”, 
+
+“gradeCompany”: “Raw”, 
+
+“grade”: “N/A”, 
+
+“variant”: “In Action”, 
+
+“pricingTier”: “Raw modern” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “12/21/2022 1 2021 Topps Heritage Eloy Jimenez Base In Action #192 Raw Eloy Jimenez 2021 Topps Heritage” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2019-20 Topps Match Attax UCL Kylian Mbappe World Class Superstar #WCI11 Raw”, 
+
+“symbol”: “KM-MATCH-WCI11-RAW”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 150000, 
+
+“usdReference”: 170.61, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “09/20/2020”, 
+
+“player”: “Kylian Mbappé”, 
+
+“year”: 2019, 
+
+“set”: “Topps Match Attax UEFA Champions League”, 
+
+“cardNumber”: “WCI11”, 
+
+“gradeCompany”: “Raw”, 
+
+“grade”: “N/A”, 
+
+“variant”: “World Class Superstar”, 
+
+“pricingTier”: “Raw soccer insert” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “09/20/2020 1 2019-20 Topps Match Attax UEFA Champions League Kylian Mbappe World Class Superstar #WCI11 Raw Kylian Mbappe 2019-20 Topps Match Attax UEFA Champions League” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2020-21 Panini Mosaic La Liga Pedri Base Rookie #60 Raw”, 
+
+“symbol”: “PEDRI-MOSLL-60-RAW”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 150000, 
+
+“usdReference”: 170.61, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “11/04/2020”, 
+
+“player”: “Pedri”, 
+
+“year”: 2020, 
+
+“set”: “Panini Mosaic La Liga”, 
+
+“cardNumber”: “60”, 
+
+“gradeCompany”: “Raw”, 
+
+“grade”: “N/A”, 
+
+“variant”: “Base Rookie”, 
+
+“pricingTier”: “Raw soccer rookie” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “11/04/2020 1 2020-21 Panini Mosaic La Liga Pedri Base Rookie Card #60 Raw Pedri 2020-21 Panini Mosaic La Liga” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2021 Panini Chronicles Draft Picks Donruss Optic Jalen Johnson Orange Prizm #213 CSG 8”, 
+
+“symbol”: “JJ-CROPTIC-213-OP-CSG8”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 300000, 
+
+“usdReference”: 341.21, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “01/21/2022”, 
+
+“player”: “Jalen Johnson”, 
+
+“year”: 2021, 
+
+“set”: “Panini Chronicles Draft Picks / Donruss Optic”, 
+
+“cardNumber”: “213”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “8”, 
+
+“variant”: “Orange Prizm”, 
+
+“pricingTier”: “Color parallel / mid grade” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “01/21/2022 1 2021 Panini Chronicles Draft Picks Donruss Optic  Jalen Johnson Donruss Optic Orange Prizm  #213  CSG 8 Jalen Johnson 2021 Panini Chronicles Draft Picks Donruss Optic” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2019-20 Panini Mosaic Cam Reddish Base Rookie #271 CSG 8.5”, 
+
+“symbol”: “CR-MOS-271-CSG8_5”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 300000, 
+
+“usdReference”: 341.21, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “07/05/2020”, 
+
+“player”: “Cam Reddish”, 
+
+“year”: 2019, 
+
+“set”: “Panini Mosaic”, 
+
+“cardNumber”: “271”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “8.5”, 
+
+“variant”: “Base Rookie”, 
+
+“pricingTier”: “Base rookie / mid grade” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “07/05/2020 1 2019-20 Panini Mosaic Cam Reddish Base Rookie # 271  CSG 8.5 Cam Reddish 2019-20 Panini Mosaic” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2017-18 Donruss Optic John Collins Rated Rookie #182 CSG 9”, 
+
+“symbol”: “JC-DOPTIC-182-CSG9”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 300000, 
+
+“usdReference”: 341.21, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “08/15/2018”, 
+
+“player”: “John Collins”, 
+
+“year”: 2017, 
+
+“set”: “Donruss Optic”, 
+
+“cardNumber”: “182”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “9”, 
+
+“variant”: “Rated Rookie”, 
+
+“pricingTier”: “CSG 9 rookie” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “08/15/2018 1 2017-18 Donruss Optic  John Collins Rated Rookie #182 CSG 9 John Collins 2017-18 Donruss Optic” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2019-20 Hoops Premium Stock Trae Young Base #1 CSG 7.5”, 
+
+“symbol”: “TY-HPS-1-CSG7_5”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 150000, 
+
+“usdReference”: 170.61, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “12/21/2020”, 
+
+“player”: “Trae Young”, 
+
+“year”: 2019, 
+
+“set”: “Panini Hoops Premium Stock”, 
+
+“cardNumber”: “1”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “7.5”, 
+
+“variant”: “Base”, 
+
+“pricingTier”: “Lower grade slab” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “12/21/2020 1 2019-20 Panini Hoops Premium Stock Trae Young Base  #1 CSG 7.5 Trae Young 2019-20 Panini Hoops Premium Stock” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “1991 Upper Deck Ken Griffey Jr. #555 CSG 6.5”, 
+
+“symbol”: “KGJ-UD-555-CSG6_5”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 150000, 
+
+“usdReference”: 170.61, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “04/13/1993”, 
+
+“player”: “Ken Griffey Jr.”, 
+
+“year”: 1991, 
+
+“set”: “Upper Deck”, 
+
+“cardNumber”: “555”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “6.5”, 
+
+“variant”: “Base”, 
+
+“pricingTier”: “Junk-wax era slab” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “04/13/1993 1 1991 Upper Deck Ken Griffey Jr. Base #555  CSG 6.5 Ken Griffey Jr. 1991 Upper Deck” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2022 Select Draft Picks Jalen Tolbert Rookie Signatures Gold Lazer Prizm #RSJTO PSA 9 / Auto 10”, 
+
+“symbol”: “JT-SELDP-RSJTO-PSA9A10”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 750000, 
+
+“usdReference”: 853.04, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “12/28/2022”, 
+
+“player”: “Jalen Tolbert”, 
+
+“year”: 2022, 
+
+“set”: “Panini Select Draft Picks”, 
+
+“cardNumber”: “RSJTO”, 
+
+“gradeCompany”: “PSA”, 
+
+“grade”: “9 (Auto 10)”, 
+
+“variant”: “Gold Lazer Prizm / Rookie Sig”, 
+
+“pricingTier”: “Auto / PSA slab” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “12/28/2022 1 2022 Select Draft Picks Jalen Tolbert Rk.Sig-Gold Lzr.Prz. #RSJTO PSA 9/Auto 10 Jalen Tolbert 2022 Select Draft Picks” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2022-23 Panini Prizm Draft Picks Anthony Black Signatures Prizm Green #FS-ABL SGC 9.5 / Auto 10”, 
+
+“symbol”: “AB-PRIZMDP-FS_ABL-SGC9_5A10”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 600000, 
+
+“usdReference”: 682.43, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “12/28/2022”, 
+
+“player”: “Anthony Black”, 
+
+“year”: 2022, 
+
+“set”: “Panini Prizm Draft Picks”, 
+
+“cardNumber”: “FS-ABL”, 
+
+“gradeCompany”: “SGC”, 
+
+“grade”: “9.5 (Auto 10)”, 
+
+“variant”: “Signatures Prizm Green”, 
+
+“pricingTier”: “Auto / SGC 9.5” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “12/28/2022 1 2022-23 Panini Prizm Draft Picks  Anthony Black Signatures Prizm Green #FS-ABL SGC 9.5/Auto 10 Anthony Black 2022-23 Panini Prizm Draft Picks” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2022 Bowman Inception Harry Ford Primordial Prospect Autographs #PPA-HF Raw”, 
+
+“symbol”: “HF-BOWINC-PPA_HF-RAW”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 300000, 
+
+“usdReference”: 341.21, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “02/08/2023”, 
+
+“player”: “Harry Ford”, 
+
+“year”: 2022, 
+
+“set”: “Bowman Inception”, 
+
+“cardNumber”: “PPA-HF”, 
+
+“gradeCompany”: “Raw”, 
+
+“grade”: “N/A”, 
+
+“variant”: “Primordial Prospect Autographs”, 
+
+“pricingTier”: “Raw auto / prospect” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “02/08/2023 1 2022 Bowman Inception  Harry Ford Primordial Prospect Autograpghs #PPA-HF Raw Harry Ford 2022 Bowman Inception” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2021-22 Topps Project 70 Mike Trout PR8459 #64 Raw”, 
+
+“symbol”: “MT-P70-64-RAW”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 150000, 
+
+“usdReference”: 170.61, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “07/08/2021”, 
+
+“player”: “Mike Trout”, 
+
+“year”: 2021, 
+
+“set”: “Topps Project 70”, 
+
+“cardNumber”: “64”, 
+
+“gradeCompany”: “Raw”, 
+
+“grade”: “N/A”, 
+
+“variant”: “PR8459”, 
+
+“pricingTier”: “Raw art card” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “07/08/2021 1 2021-22 Topps Project 70 Mike Trout PR8459 #64 Raw Mike Trout 2021-22 Topps Project 70” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2022 Panini Select Draft Picks Trey Lance Gold Lazer Prizm #40 BGS 9.5”, 
+
+“symbol”: “TL-SELDP-40-GLP-BGS9_5”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 600000, 
+
+“usdReference”: 682.43, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “12/29/2022”, 
+
+“player”: “Trey Lance”, 
+
+“year”: 2022, 
+
+“set”: “Panini Select Draft Picks”, 
+
+“cardNumber”: “40”, 
+
+“gradeCompany”: “BGS”, 
+
+“grade”: “9.5”, 
+
+“variant”: “Gold Lazer Prizm”, 
+
+“pricingTier”: “BGS 9.5 / color parallel” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “12/29/2022 1 2022 Panini Select Draft Picks Trey Lance Gold Lazer Prizm #40 BGS 9.5 Trey Lance 2022 Panini Select Draft Picks” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2018 Topps Chrome Rookie Autographs Felix Jorge Blue Wave Refractor #RA-FJ PSA 10 / Auto 10”, 
+
+“symbol”: “FJ-TC-RA_FJ-BW-PSA10A10”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 750000, 
+
+“usdReference”: 853.04, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “12/29/2018”, 
+
+“player”: “Felix Jorge”, 
+
+“year”: 2018, 
+
+“set”: “Topps Chrome Rookie Autographs”, 
+
+“cardNumber”: “RA-FJ”, 
+
+“gradeCompany”: “PSA”, 
+
+“grade”: “10 (Auto 10)”, 
+
+“variant”: “Blue Wave Refractor”, 
+
+“pricingTier”: “Gem Mint auto / refractor” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “12/29/2018 1 2018 Topps Chrome Rookie Autographs Felix Jorge Rookie Autograph Blue Wave Refractor  #RA-FJ PSA 10/Auto 10 Felix Jorge 2018 Topps Chrome Rookie Autographs” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2017 Donruss Optic Solomon Thomas Rookie Autographs Bronze #116 PSA 10 / Auto 10”, 
+
+“symbol”: “ST-DOPTIC-116-BRZ-PSA10A10”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 600000, 
+
+“usdReference”: 682.43, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “04/10/2018”, 
+
+“player”: “Solomon Thomas”, 
+
+“year”: 2017, 
+
+“set”: “Donruss Optic”, 
+
+“cardNumber”: “116”, 
+
+“gradeCompany”: “PSA”, 
+
+“grade”: “10 (Auto 10)”, 
+
+“variant”: “Rookie Autographs Bronze”, 
+
+“pricingTier”: “Gem Mint auto / Bronze” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “04/10/2018 1 2017 Panini Donruss Optic  Solomon Thomas Rookie Autographs Bronze #116 PSA 10/Auto 10 Solomon Thomas 2017 Panini Donruss Optic” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2017 Topps Derek Jeter Target Blue Chrome Reprints #DJ-2 PSA 10”, 
+
+“symbol”: “DJ-TOPPS-DJ2-TBLU-PSA10”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 500000, 
+
+“usdReference”: 568.69, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “12/30/2017”, 
+
+“player”: “Derek Jeter”, 
+
+“year”: 2017, 
+
+“set”: “Topps”, 
+
+“cardNumber”: “DJ-2”, 
+
+“gradeCompany”: “PSA”, 
+
+“grade”: “10”, 
+
+“variant”: “Target Blue Chrome Reprints”, 
+
+“pricingTier”: “PSA 10 modern reprint” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “12/30/2017 1 2017 Topps Derek Jeter Derek Jeter Traget Blue Chrome Reprints #DJ-2 PSA 10 Derek Jeter 2017 Topps” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “1990-91 NBA Hoops Michael Jordan All-Star Weekend Miami Feb. 9–11, 1990 #5 Raw”, 
+
+“symbol”: “MJ-HOOPS-5-ASW-RAW”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 150000, 
+
+“usdReference”: 170.61, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “09/16/1995”, 
+
+“player”: “Michael Jordan”, 
+
+“year”: 1990, 
+
+“set”: “NBA Hoops”, 
+
+“cardNumber”: “5”, 
+
+“gradeCompany”: “Raw”, 
+
+“variant”: “All-Star Weekend subset”, 
+
+“pricingTier”: “Raw 90s insert” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “09/16/1995 1 1990-91 NBA Hoops Michael Jordan NBA Hoops All Star Weekend Miami Feb.9-11,1990 #5 Raw Michael Jordan 1990-91 NBA Hoops” 
+
+} 
+
+} 
+
+] 
+
+[ 
+
+{ 
+
+“name”: “2021 Onyx Vintage Clyde Drexler Parallel Autograph Blue-Ink #VACD PSA 9 / Auto 10”, 
+
+“symbol”: “CD-ONYXVACD-PSA9A10”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 600000, 
+
+“usdReference”: 682.43, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “01/19/2022”, 
+
+“player”: “Clyde Drexler”, 
+
+“year”: 2021, 
+
+“set”: “Onyx Vintage”, 
+
+“cardNumber”: “VACD”, 
+
+“gradeCompany”: “PSA”, 
+
+“grade”: “9 (Auto 10)”, 
+
+“variant”: “Parallel Autograph (Blue Ink)”, 
+
+“pricingTier”: “PSA 9 auto insert”, 
+
+“notes”: “Blue-ink on-card auto; PSA 10 autograph grade.” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “01/19/2022 1 2021 Onyx Vintage Clyde Drexler Parallel Autograph Blue-Ink #VACD PSA 9/Auto 10 Clyde Drexler 2021 Onyx Vintage” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2020 Panini Playbook Nick Chubb Base #28 Raw”, 
+
+“symbol”: “NC-PLAYBK-28-RAW”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 150000, 
+
+“usdReference”: 170.61, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “10/15/2021”, 
+
+“player”: “Nick Chubb”, 
+
+“year”: 2020, 
+
+“set”: “Panini Playbook”, 
+
+“cardNumber”: “28”, 
+
+“gradeCompany”: “Raw”, 
+
+“grade”: “N/A”, 
+
+“variant”: “Base”, 
+
+“pricingTier”: “Raw base” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “10/15/2021 1 2020 Panini Playbook Nick Chubb Base #28 Raw Nick Chubb 2020 Panini Playbook” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2020 Panini Mosaic Prizm Tom Brady Reactive Green Prizm #298 CSG 9”, 
+
+“symbol”: “TB-MOSPRIZM-298-RG-CSG9”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 500000, 
+
+“usdReference”: 568.69, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “05/25/2021”, 
+
+“player”: “Tom Brady”, 
+
+“year”: 2020, 
+
+“set”: “Panini Mosaic Prizm”, 
+
+“cardNumber”: “298”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “9”, 
+
+“variant”: “Reactive Green Prizm”, 
+
+“pricingTier”: “Parallel / CSG 9” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “05/25/2021 1 2020 Panini Mosaic Prizm Tom Brady Reactive Green Prizm #298 CSG 9 Tom Brady 2020 Panini Mosaic Prizm” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2020 Upper Deck Series 2 Vitali Kravtsov Dazzlers Green #DZ-82 CSG 10”, 
+
+“symbol”: “VK-UDS2-DZ82-GRN-CSG10”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 300000, 
+
+“usdReference”: 341.21, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “05/15/2021”, 
+
+“player”: “Vitali Kravtsov”, 
+
+“year”: 2020, 
+
+“set”: “Upper Deck Series 2”, 
+
+“cardNumber”: “DZ-82”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “10”, 
+
+“variant”: “Dazzlers Green”, 
+
+“pricingTier”: “Insert / Gem Mint” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “05/15/2021 1 2020 Upper Deck Series 2 Vitali Kravstov Dazzlers Green  #DZ-82 CSG 10 Vitali Kravstov 2020 Upper Deck Series 2” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2021 Donruss Retro 87’ Gavin Lux Retro 87’ Signatures #87S-GL SGC 9 / Auto 10”, 
+
+“symbol”: “GL-DONR-87S_GL-SGC9A10”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 600000, 
+
+“usdReference”: 682.43, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “10/19/2021”, 
+
+“player”: “Gavin Lux”, 
+
+“year”: 2021, 
+
+“set”: “Donruss Retro 87’”, 
+
+“cardNumber”: “87S-GL”, 
+
+“gradeCompany”: “SGC”, 
+
+“grade”: “9 (Auto 10)”, 
+
+“variant”: “Retro 87’ Signatures”, 
+
+“pricingTier”: “Auto / SGC slab” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “10/19/2021 1 2021 Donruss Retro 87’ Gavin Lux Retro 87’ Signatures #87S-GL SGC 9/Auto 10 Gavin Lux 2021 Donruss Retro 87’” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2005 SP Authentic Tom Brady #50 CSG 8.5”, 
+
+“symbol”: “TB-SPAUTH-50-CSG8_5”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 500000, 
+
+“usdReference”: 568.69, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “10/10/2011”, 
+
+“player”: “Tom Brady”, 
+
+“year”: 2005, 
+
+“set”: “SP Authentic”, 
+
+“cardNumber”: “50”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “8.5”, 
+
+“variant”: “Base”, 
+
+“pricingTier”: “Mid-grade 2000s” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “10/10/2011 1 2005 SP Authentic Tom Brady #50 CSG 8.5 Tom Brady 2005 SP Authentic” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2005 Upper Deck Super Bowl Champions Tom Brady Season Highlights #SH1 CSG 8.5”, 
+
+“symbol”: “TB-UDSBC-SH1-CSG8_5”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 500000, 
+
+“usdReference”: 568.69, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “04/12/2019”, 
+
+“player”: “Tom Brady”, 
+
+“year”: 2005, 
+
+“set”: “Upper Deck Super Bowl Champions Set”, 
+
+“cardNumber”: “SH1”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “8.5”, 
+
+“variant”: “Season Highlights”, 
+
+“pricingTier”: “Insert / mid-grade” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “04/12/2019 1 2005 Upper Deck Super Bowl Champions Set Tom Brady Season Highlights #SH1 CSG 8.5 Tom Brady 2005 Upper Deck Super Bowl Champions Set” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2005 Donruss Optic Tom Brady #63 CSG 10”, 
+
+“symbol”: “TB-DOPTIC-63-CSG10”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 750000, 
+
+“usdReference”: 853.04, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “03/08/2019”, 
+
+“player”: “Tom Brady”, 
+
+“year”: 2005, 
+
+“set”: “Donruss Optic”, 
+
+“cardNumber”: “63”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “10”, 
+
+“variant”: “Base”, 
+
+“pricingTier”: “Gem Mint 2000s” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “03/08/2019 1 2005 Donruss Optic  Tom Brady #63 CSG 10 Tom Brady 2005 Donruss Optic” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2016 Leaf Tom Brady Exclusive Legends Edition #10 CSG 9”, 
+
+“symbol”: “TB-LEAF-10-CSG9”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 300000, 
+
+“usdReference”: 341.21, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “08/09/2018”, 
+
+“player”: “Tom Brady”, 
+
+“year”: 2016, 
+
+“set”: “Leaf Exclusive Legends Edition”, 
+
+“cardNumber”: “10”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “9”, 
+
+“variant”: “Base”, 
+
+“pricingTier”: “Leaf Legends slab” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “08/09/2018 1 2016 Leaf Tom Brady Exclusive Legends Edition #10 CSG 9 Tom Brady 2016 Leaf” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2017 Topps Archives Aaron Judge 1960 Rookie Star #RS-9 CSG 10”, 
+
+“symbol”: “AJ-ARCH-1960RS-RS9-CSG10”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 500000, 
+
+“usdReference”: 568.69, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “01/17/2018”, 
+
+“player”: “Aaron Judge”, 
+
+“year”: 2017, 
+
+“set”: “Topps Archives”, 
+
+“cardNumber”: “RS-9”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “10”, 
+
+“variant”: “1960 Rookie Star”, 
+
+“pricingTier”: “Gem Mint insert” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “01/17/2018 1 2017 Topps Archives Aaron Judge 1960 Rookie Star #RS-9 CSG 10 Aaron Judge 2017 Topps Archives” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2021 Topps Dylan Carlson ’52 Redux #T52-33 CSG 9.5”, 
+
+“symbol”: “DC-TOPPS-T52_33-CSG9_5”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 300000, 
+
+“usdReference”: 341.21, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “11/19/2021”, 
+
+“player”: “Dylan Carlson”, 
+
+“year”: 2021, 
+
+“set”: “Topps”, 
+
+“cardNumber”: “T52-33”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “9.5”, 
+
+“variant”: “’52 Redux”, 
+
+“pricingTier”: “CSG 9.5 insert” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “11/19/2021 1 2021 Topps Dylan Carlson ’52 Redux #T52-33 Dylan Carlson CSG 9.5 Dylan Carlson 2021 Topps” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2020-21 Panini Mosaic La Liga Trincão Mosaic Prizm #56 CSG 7.5”, 
+
+“symbol”: “TRIN-MOSLL-56-CSG7_5”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 150000, 
+
+“usdReference”: 170.61, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “10/27/2020”, 
+
+“player”: “Trincão”, 
+
+“year”: 2020, 
+
+“set”: “Panini Mosaic La Liga”, 
+
+“cardNumber”: “56”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “7.5”, 
+
+“variant”: “Mosaic Prizm”, 
+
+“pricingTier”: “Lower-grade parallel” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “10/27/2020 1 2020-21 Panini Mosaic La Liga Trincao Mosaic Prizm #56 CSG 7.5 Trincao 2020-21 Panini Mosaic La Liga” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2021 Donruss Optic Starling Marte Lime Green #17 CSG 9.5”, 
+
+“symbol”: “SM-DOPTIC-17-LIME-CSG9_5”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 300000, 
+
+“usdReference”: 341.21, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “11/21/2021”, 
+
+“player”: “Starling Marte”, 
+
+“year”: 2021, 
+
+“set”: “Donruss Optic”, 
+
+“cardNumber”: “17”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “9.5”, 
+
+“variant”: “Lime Green”, 
+
+“pricingTier”: “Color parallel / high grade” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “11/21/2021 1 2021 Donruss Optic Starling Marte Lime Green #17  CSG 9.5 Starling Marte 2021 Donruss Optic” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2021 Panini Contenders Draft Picks Quintin Morris College Ticket Autographs Blue 65/99 #192 CSG 9.5”, 
+
+“symbol”: “QM-CONTDP-192-BLUE65_99-CSG9_5”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 500000, 
+
+“usdReference”: 568.69, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “09/21/2021”, 
+
+“player”: “Quintin Morris”, 
+
+“year”: 2021, 
+
+“set”: “Panini Contenders Draft Picks”, 
+
+“cardNumber”: “192”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “9.5”, 
+
+“variant”: “College Ticket Autographs Blue /65-99”, 
+
+“serialNumbered”: “65/99”, 
+
+“pricingTier”: “Serial-numbered auto / high grade” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “09/21/2021 1 2021 Panini Contenders Draft Picks Quintin Morris College Ticket Autographs Blue 65/99 #192  CSG 9.5 Quintin Morris 2021 Panini Contenders Draft Picks” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2021 Donruss Elite Series Babe Ruth Rapture #ES3 CSG 10”, 
+
+“symbol”: “BR-ELITE-ES3-RAP-CSG10”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 300000, 
+
+“usdReference”: 341.21, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “12/15/2021”, 
+
+“player”: “Babe Ruth”, 
+
+“year”: 2021, 
+
+“set”: “Donruss Elite Series”, 
+
+“cardNumber”: “ES3”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “10”, 
+
+“variant”: “Rapture”, 
+
+“pricingTier”: “Gem Mint insert” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “12/15/2021 1 2021 Donruss Elite Series Babe Ruth Rapture  #ES3 CSG 10 Babe Ruth 2021 Donruss Elite Series” 
+
+} 
+
+}, 
+
+{ 
+
+“name”: “2021 Donruss Elite Series Mike Trout Pink Fireworks #ES2 CSG 10”, 
+
+“symbol”: “MT-ELITE-ES2-PFW-CSG10”, 
+
+“quanGty”: “1”, 
+
+“btcPriceSats”: 300000, 
+
+“usdReference”: 341.21, 
+
+“btcUsdAtCalc”: 113738.0, 
+
+“payout_eth”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_wbtc”: “0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7”, 
+
+“payout_eth2”: “0x9d79821be713159ec1b69720794fa424d53e7949”, 
+
+“payout_btc”: “bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf”, 
+
+“metadata”: { 
+
+“datePurchased”: “11/21/2021”, 
+
+“player”: “Mike Trout”, 
+
+“year”: 2021, 
+
+“set”: “Donruss Elite Series”, 
+
+“cardNumber”: “ES2”, 
+
+“gradeCompany”: “CSG”, 
+
+“grade”: “10”, 
+
+“variant”: “Pink Fireworks”, 
+
+“pricingTier”: “Gem Mint insert” 
+
+}, 
+
+“raw”: { 
+
+“sourceLine”: “11/21/2021 1 2021 Donruss Elite Series  Mike Trout Pink Fireworks #ES2 CSG 10 Mike Trout 2021 Donruss Elite Series” 
+
+} 
+
+} 
+
+] 
+{ 
+
+  "name": "2021 Contenders Tom Brady Winning Ticket #WTTBR PSA 8", 
+
+  "symbol": "WTTBR", 
+
+  "quantity": "1", 
+
+  "btcPriceSats": 1068165, 
+
+  "usdReference": 1214.91, 
+
+  "btcUsdAtCalc": 113738.0, 
+
+  "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+  "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+  "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+  "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+  "metadata": { 
+
+    "player": "Tom Brady", 
+
+    "year": "2021", 
+
+    "set": "Contenders", 
+
+    "variation": "Winning Ticket", 
+
+    "number": "WTTBR", 
+
+    "category": "Football", 
+
+    "condition": "PSA 8", 
+
+    "investment": 1.0, 
+
+    "potential_profit": 1213.91, 
+
+    "ladder_id": "", 
+
+    "notes": "", 
+
+    "date_purchased": "12/18/2021" 
+
+  }, 
+
+  "raw": { 
+
+    "Date Purchased": "12/18/2021", 
+
+    "Quantity": "1", 
+
+    "Card": "2021 Contenders Tom Brady Winning Ticket #WTTBR PSA 8", 
+
+    "Player": "Tom Brady", 
+
+    "Year": "2021", 
+
+    "Set": "Contenders", 
+
+    "Variation": "Winning Ticket", 
+
+    "Number": "WTTBR", 
+
+    "Category": "Football", 
+
+    "Condition": "PSA 8", 
+
+    "Investment": "1", 
+
+    "Current Value": "1214.91", 
+
+    "Potential Profit": "1213.91", 
+
+    "Ladder ID": "", 
+
+    "Notes": "" 
+
+  } 
+
+} 
+
+[ 
+
+  { 
+
+    "name": "2021 CSG 2021 Panini Prestige Xtra Points Sunburst #91 Patrick Mahomes II SGC 10", 
+
+    "symbol": "202191PATRI", 
+
+    "quantity": "1", 
+
+    "btcPriceSats": 1130264, 
+
+    "usdReference": 1285.54, 
+
+    "btcUsdAtCalc": 113738.0, 
+
+    "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+    "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+    "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+    "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+    "metadata": { 
+
+      "player": "Patrick Mahomes II", 
+
+      "year": "2021", 
+
+      "set": "CSG", 
+
+      "variation": "Xtra Points Sunburst", 
+
+      "number": "91", 
+
+      "category": "Football", 
+
+      "condition": "SGC 10", 
+
+      "investment": 1.0, 
+
+      "potential_profit": 1284.54, 
+
+      "ladder_id": "", 
+
+      "notes": "", 
+
+      "date_purchased": "01/18/2021" 
+
+    }, 
+
+    "raw": { 
+
+      "Date Purchased": "01/18/2021", 
+
+      "Quantity": "1", 
+
+      "Card": "2021 CSG 2021 Panini Prestige Xtra Points Sunburst #91 Patrick Mahomes II SGC 10", 
+
+      "Player": "Patrick Mahomes II", 
+
+      "Year": "2021", 
+
+      "Set": "CSG", 
+
+      "Variation": "Xtra Points Sunburst", 
+
+      "Number": "91", 
+
+      "Category": "Football", 
+
+      "Condition": "SGC 10", 
+
+      "Investment": "1", 
+
+      "Current Value": "1285.54", 
+
+      "Potential Profit": "1284.54", 
+
+      "Ladder ID": "", 
+
+      "Notes": "" 
+
+    } 
+
+  }, 
+
+  { 
+
+    "name": "2010 Topps Chrome Tom Brady Refractor #C80 SGC 9", 
+
+    "symbol": "TOMC80SGC9", 
+
+    "quantity": "1", 
+
+    "btcPriceSats": 1756335, 
+
+    "usdReference": 1997.62, 
+
+    "btcUsdAtCalc": 113738.0, 
+
+    "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+    "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+    "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+    "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+    "metadata": { 
+
+      "player": "Tom Brady", 
+
+      "year": "2010", 
+
+      "set": "Topps Chrome", 
+
+      "variation": "Refractor", 
+
+      "number": "C80", 
+
+      "category": "Football", 
+
+      "condition": "SGC 9", 
+
+      "investment": 1.0, 
+
+      "potential_profit": 1996.62, 
+
+     [ 
+
+  { 
+
+{ 
+
+  "items": [ 
+
+    { 
+
+      "name": "2020 Mosaic Prizm Tom Brady Pink Camo #135 SGC 10", 
+
+      "symbol": "TOM135SGC10", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 2944583, 
+
+      "usdReference": 3349.11, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Tom Brady", 
+
+        "year": "2020", 
+
+        "set": "Mosaic Prizm", 
+
+        "variation": "Pink Camo", 
+
+        "number": "135", 
+
+        "category": "Football", 
+
+        "condition": "SGC 10", 
+
+        "investment": 1.0, 
+
+        "potential_profit": 3348.11, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "07/20/2020" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "07/20/2020", 
+
+        "Quantity": "1", 
+
+        "Card": "2020 Mosaic Prizm Tom Brady Pink Camo #135 SGC 10", 
+
+        "Player": "Tom Brady", 
+
+        "Year": "2020", 
+
+        "Set": "Mosaic Prizm", 
+
+        "Variation": "Pink Camo", 
+
+        "Number": "135", 
+
+        "Category": "Football", 
+
+        "Condition": "SGC 10", 
+
+        "Investment": "1", 
+
+        "Current Value": "3349.11", 
+
+        "Potential Profit": "3348.11", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    }, 
+
+    { 
+
+      "name": "2022 Parkside NWSL Ifeoma Omumonu Signature Series Autographs #SS-IO Raw", 
+
+      "symbol": "IFEOMASSIOR", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 7117015, 
+
+      "usdReference": 8094.75, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Ifeoma Omumonu", 
+
+        "year": "2022", 
+
+        "set": "Parkside NWSL", 
+
+        "variation": "Signature Series Autographs", 
+
+        "number": "SS-IO", 
+
+        "category": "Soccer", 
+
+        "condition": "Raw", 
+
+        "investment": 1.0, 
+
+        "potential_profit": 8093.75, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "11/16/2022" 
+
+     { 
+
+  "items": [ 
+
+    { 
+
+      "name": "2018 Panini Hoops Kobe Bryant Silver Prizm 042/199 #296 SGC 9.5", 
+
+      "symbol": "KOBE296SGC9", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 3283696, 
+
+      "usdReference": 3734.81, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Kobe Bryant", 
+
+        "year": "2018", 
+
+        "set": "Panini Hoops", 
+
+        "variation": "Silver Prizm 042/199", 
+
+        "number": "296", 
+
+        "category": "Basketball", 
+
+        "condition": "SGC 9.5", 
+
+        "investment": 1.0, 
+
+        "potential_profit": 3733.81, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "06/18/2020" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "06/18/2020", 
+
+        "Quantity": "1", 
+
+        "Card": "2018 Panini Hoops Kobe Bryant Silver Prizm 042/199 #296 SGC 9.5", 
+
+        "Player": "Kobe Bryant", 
+
+        "Year": "2018", 
+
+        "Set": "Panini Hoops", 
+
+        "Variation": "Silver Prizm 042/199", 
+
+        "Number": "296", 
+
+        "Category": "Basketball", 
+
+        "Condition": "SGC 9.5", 
+
+        "Investment": "1", 
+
+        "Current Value": "3734.81", 
+
+        "Potential Profit": "3733.81", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    }, 
+
+    { 
+
+      "name": "2021 Panini Prizm Dral Picks Trevor Lawrence Green Prizm #161 SGC 9.5", 
+
+      "symbol": "TREVOR161SG", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 1323665, 
+
+      "usdReference": 1505.51, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Trevor Lawrence", 
+
+        "year": "2021", 
+
+        "set": "Panini Prizm Dral Picks", 
+
+        "variation": "Green Prizm", 
+
+        "number": "161", 
+
+        "category": "Football", 
+
+        "condition": "SGC 9.5", 
+
+        "investment": 1.0, 
+
+        "potential_profit": 1504.51, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "09/18/2021" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "09/18/2021", 
+
+        "Quantity": "1", 
+
+        "Card": "2021 Panini Prizm Dral Picks Trevor Lawrence Green Prizm #161 SGC 9.5", 
+
+        "Player": "Trevor Lawrence", 
+
+        "Year": "2021", 
+
+        "Set": "Panini Prizm Dral Picks", 
+
+        "Variation": "Green Prizm", 
+
+        "Number": "161", 
+
+        "Category": "Football", 
+
+        "Condition": "SGC 9.5", 
+
+        "Investment": "1", 
+
+        "Current Value": "1505.51", 
+
+        "Potential Profit": "1504.51", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    } 
+
+  ] 
+
+} 
+
+{ 
+
+  "items": [ 
+
+    { 
+
+      "name": "2021 Panini Prizm Draft Picks Trevor Lawrence Green Prizm #106 SGC 9.5", 
+
+      "symbol": "TREVOR106SG", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 1126299, 
+
+      "usdReference": 1281.03, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Trevor Lawrence", 
+
+        "year": "2021", 
+
+        "set": "Panini Prizm Draft Picks", 
+
+        "variation": "Green Prizm", 
+
+        "number": "106", 
+
+        "category": "Football", 
+
+        "condition": "SGC 9.5", 
+
+        "investment": 1.0, 
+
+        "potential_profit": 1280.03, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "10/18/2021" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "10/18/2021", 
+
+        "Quantity": "1", 
+
+        "Card": "2021 Panini Prizm Draft Picks Trevor Lawrence Green Prizm #106 SGC 9.5", 
+
+        "Player": "Trevor Lawrence", 
+
+        "Year": "2021", 
+
+        "Set": "Panini Prizm Draft Picks", 
+
+        "Variation": "Green Prizm", 
+
+        "Number": "106", 
+
+        "Category": "Football", 
+
+        "Condition": "SGC 9.5", 
+
+        "Investment": "1", 
+
+        "Current Value": "1281.03", 
+
+        "Potential Profit": "1280.03", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    }, 
+
+    { 
+
+      "name": "2019 Panini Hoops Premium Stock Luka Doncic RED Prizm #30 SGC 9.5", 
+
+      "symbol": "LUKA30SGC95", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 909784, 
+
+      "usdReference": 1034.77, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Luka Doncic", 
+
+        "year": "2019", 
+
+        "set": "Panini Hoops Premium Stock", 
+
+        "variation": "RED Prizm", 
+
+        "number": "30", 
+
+        "category": "Basketball", 
+
+        "condition": "SGC 9.5", 
+
+        "investment": 1.0, 
+
+        "potential_profit": 1033.77, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "02/18/2020" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "02/18/2020", 
+
+        "Quantity": "1", 
+
+        "Card": "2019 Panini Hoops Premium Stock Luka Doncic RED Prizm #30 SGC 9.5", 
+
+        "Player": "Luka Doncic", 
+
+        "Year": "2019", 
+
+        "Set": "Panini Hoops Premium Stock", 
+
+        "Variation": "RED Prizm", 
+
+        "Number": "30", 
+
+        "Category": "Basketball", 
+
+        "Condition": "SGC 9.5", 
+
+        "Investment": "1", 
+
+        "Current Value": "1034.77", 
+
+        "Potential Profit": "1033.77", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    } 
+
+  ] 
+
+} 
+
+{ 
+
+  "items": [ 
+
+    { 
+
+      "name": "2019 Topps Match Attax Champions UEFA Champions League Cristiano Ronaldo Golden Squad Limited Edition #LE12 SGC 9", 
+
+      "symbol": "CRISTIANOLE", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 6730776, 
+
+      "usdReference": 7655.45, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Cristiano Ronaldo", 
+
+        "year": "2019", 
+
+        "set": "Topps Match Attax Champions UEFA Champions League", 
+
+        "variation": "Golden Squad Limited Edition", 
+
+        "number": "LE12", 
+
+        "category": "Soccer", 
+
+        "condition": "SGC 9", 
+
+        "investment": 1.0, 
+
+        "potential_profit": 7654.45, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "12/18/2020" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "12/18/2020", 
+
+        "Quantity": "1", 
+
+        "Card": "2019 Topps Match Attax Champions UEFA Champions League Cristiano Ronaldo Golden Squad Limited Edition #LE12 SGC 9", 
+
+        "Player": "Cristiano Ronaldo", 
+
+        "Year": "2019", 
+
+        "Set": "Topps Match Attax Champions UEFA Champions League", 
+
+        "Variation": "Golden Squad Limited Edition", 
+
+        "Number": "LE12", 
+
+        "Category": "Soccer", 
+
+        "Condition": "SGC 9", 
+
+        "Investment": "1", 
+
+        "Current Value": "7655.45", 
+
+        "Potential Profit": "7654.45", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    }, 
+
+    { 
+
+      "name": "2018 Panini Diamond Kings Walker Buehler DK Rookie Materials Sig. PSA 9", 
+
+      "symbol": "WALKERPSA9", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 1442772, 
+
+      "usdReference": 1640.98, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Walker Buehler", 
+
+        "year": "2018", 
+
+        "set": "Panini Diamond Kings", 
+
+        "variation": "DK Rookie Materials Sig.", 
+
+        "number": "", 
+
+        "category": "Baseball", 
+
+        "condition": "PSA 9", 
+
+        "investment": 1.0, 
+
+        "potential_profit": 1639.98, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "07/11/2020" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "07/11/2020", 
+
+        "Quantity": "1", 
+
+        "Card": "2018 Panini Diamond Kings Walker Buehler DK Rookie Materials Sig. PSA 9", 
+
+        "Player": "Walker Buehler", 
+
+        "Year": "2018", 
+
+        "Set": "Panini Diamond Kings", 
+
+        "Variation": "DK Rookie Materials Sig.", 
+
+        "Number": "", 
+
+        "Category": "Baseball", 
+
+        "Condition": "PSA 9", 
+
+        "Investment": "1", 
+
+        "Current Value": "1640.98", 
+
+        "Potential Profit": "1639.98", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    }, 
+
+    { 
+
+      "name": "2019 Panini Chronicles Jared Goff Prime Swatches #PS9 Raw", 
+
+      "symbol": "JAREDPS9RAW", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 6815937, 
+
+      "usdReference": 7752.31, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Jared Goff", 
+
+        "year": "2019", 
+
+        "set": "Panini Chronicles", 
+
+        "variation": "Prime Swatches", 
+
+        "number": "PS9", 
+
+        "category": "Football", 
+
+        "condition": "Raw", 
+
+        "investment": 1.0, 
+
+        "potential_profit": 7751.31, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "01/22/2020" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "01/22/2020", 
+
+        "Quantity": "1", 
+
+        "Card": "2019 Panini Chronicles Jared Goff Prime Swatches #PS9 Raw", 
+
+        "Player": "Jared Goff", 
+
+        "Year": "2019", 
+
+        "Set": "Panini Chronicles", 
+
+        "Variation": "Prime Swatches", 
+
+        "Number": "PS9", 
+
+        "Category": "Football", 
+
+        "Condition": "Raw", 
+
+        "Investment": "1", 
+
+        "Current Value": "7752.31", 
+
+        "Potential Profit": "7751.31", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    } 
+
+  ] 
+
+} 
+
+{ 
+
+  "items": [ 
+
+    { 
+
+      "name": "2021 Panini Prizm Aaron Judge Stained Glass Purple Prizm #SG-5 SGC 9.5", 
+
+      "symbol": "AARONSG5SGC", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 2086893, 
+
+      "usdReference": 2373.59, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Aaron Judge", 
+
+        "year": "2021", 
+
+        "set": "Panini Prizm", 
+
+        "variation": "Stained Glass Purple Prizm", 
+
+        "number": "SG-5", 
+
+        "category": "Baseball", 
+
+        "condition": "SGC 9.5", 
+
+        "investment": 1.0, 
+
+        "potential_profit": 2372.59, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "02/19/2022" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "02/19/2022", 
+
+        "Quantity": "1", 
+
+        "Card": "2021 Panini Prizm Aaron Judge Stained Glass Purple Prizm #SG-5 SGC 9.5", 
+
+        "Player": "Aaron Judge", 
+
+        "Year": "2021", 
+
+        "Set": "Panini Prizm", 
+
+        "Variation": "Stained Glass Purple Prizm", 
+
+        "Number": "SG-5", 
+
+        "Category": "Baseball", 
+
+        "Condition": "SGC 9.5", 
+
+        "Investment": "1", 
+
+        "Current Value": "2373.59", 
+
+        "Potential Profit": "2372.59", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    }, 
+
+    { 
+
+      "name": "2019 Topps Match Attax UEFA Champions League Cristiano Ronaldo World Class Superstar #WCU8 Raw", 
+
+      "symbol": "CRISTIANOWC", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 758928, 
+
+      "usdReference": 863.19, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Cristiano Ronaldo", 
+
+        "year": "2019", 
+
+        "set": "Topps Match Attax UEFA Champions League", 
+
+        "variation": "World Class Superstar", 
+
+        "number": "WCU8", 
+
+        "category": "Soccer", 
+
+        "condition": "Raw", 
+
+        "investment": 1.0, 
+
+        "potential_profit": 862.19, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "05/18/2020" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "05/18/2020", 
+
+        "Quantity": "1", 
+
+        "Card": "2019 Topps Match Attax UEFA Champions League Cristiano Ronaldo World Class Superstar #WCU8 Raw", 
+
+        "Player": "Cristiano Ronaldo", 
+
+        "Year": "2019", 
+
+        "Set": "Topps Match Attax UEFA Champions League", 
+
+        "Variation": "World Class Superstar", 
+
+        "Number": "WCU8", 
+
+        "Category": "Soccer", 
+
+        "Condition": "Raw", 
+
+        "Investment": "1", 
+
+        "Current Value": "863.19", 
+
+        "Potential Profit": "862.19", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    }, 
+
+    { 
+
+      "name": "2021 Panini NBA Sticker & Card Collection Chris Duarte European Edition Silver #93 Raw", 
+
+      "symbol": "CHRIS93RAW", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 1022631, 
+
+      "usdReference": 1163.12, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Chris Duarte", 
+
+        "year": "2021", 
+
+        "set": "Panini NBA Sticker & Card Collection", 
+
+        "variation": "European Edition Silver", 
+
+        "number": "93", 
+
+        "category": "Basketball", 
+
+        "condition": "Raw", 
+
+        "investment": 2.0, 
+
+        "potential_profit": 1161.12, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "11/13/2021" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "11/13/2021", 
+
+        "Quantity": "1", 
+
+        "Card": "2021 Panini NBA Sticker & Card Collection Chris Duarte European Edition Silver #93 Raw", 
+
+        "Player": "Chris Duarte", 
+
+        "Year": "2021", 
+
+        "Set": "Panini NBA Sticker & Card Collection", 
+
+        "Variation": "European Edition Silver", 
+
+        "Number": "93", 
+
+        "Category": "Basketball", 
+
+        "Condition": "Raw", 
+
+        "Investment": "2", 
+
+        "Current Value": "1163.12", 
+
+        "Potential Profit": "1161.12", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    } 
+
+  ] 
+
+} 
+
+{ 
+
+  "items": [ 
+
+    { 
+
+      "name": "2019 Topps Match Attax UEFA Champions League Lionel Messi #BAR 11 Raw", 
+
+      "symbol": "LIONELBAR11", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 6590313, 
+
+      "usdReference": 7495.69, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Lionel Messi", 
+
+        "year": "2019", 
+
+        "set": "Topps Match Attax UEFA Champions League", 
+
+        "variation": "", 
+
+        "number": "BAR 11", 
+
+        "category": "Soccer", 
+
+        "condition": "Raw", 
+
+        "investment": 3.0, 
+
+        "potential_profit": 7492.69, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "12/18/2020" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "12/18/2020", 
+
+        "Quantity": "1", 
+
+        "Card": "2019 Topps Match Attax UEFA Champions League Lionel Messi #BAR 11 Raw", 
+
+        "Player": "Lionel Messi", 
+
+        "Year": "2019", 
+
+        "Set": "Topps Match Attax UEFA Champions League", 
+
+        "Variation": "", 
+
+        "Number": "BAR 11", 
+
+        "Category": "Soccer", 
+
+        "Condition": "Raw", 
+
+        "Investment": "3", 
+
+        "Current Value": "7495.69", 
+
+        "Potential Profit": "7492.69", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    }, 
+
+    { 
+
+      "name": "2016 Topps Match Attax UEFA Champions League Pepe 2015/16 Winners #RM5 Raw", 
+
+      "symbol": "PEPERM5RAW", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 1027730, 
+
+      "usdReference": 1168.92, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Pepe", 
+
+        "year": "2016", 
+
+        "set": "Topps Match Attax UEFA Champions League", 
+
+        "variation": "2015/16 Winners", 
+
+        "number": "RM5", 
+
+        "category": "Soccer", 
+
+        "condition": "Raw", 
+
+        "investment": 2.0, 
+
+        "potential_profit": 1166.92, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "05/18/2018" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "05/18/2018", 
+
+        "Quantity": "1", 
+
+        "Card": "2016 Topps Match Attax UEFA Champions League Pepe 2015/16 Winners #RM5 Raw", 
+
+        "Player": "Pepe", 
+
+        "Year": "2016", 
+
+        "Set": "Topps Match Attax UEFA Champions League", 
+
+        "Variation": "2015/16 Winners", 
+
+        "Number": "RM5", 
+
+        "Category": "Soccer", 
+
+        "Condition": "Raw", 
+
+        "Investment": "2", 
+
+        "Current Value": "1168.92", 
+
+        "Potential Profit": "1166.92", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    }, 
+
+    { 
+
+      "name": "2021 Onyx Vintage Clyde Drexler Parallel Autograph Blue-Ink #VACD PSA 9/Auto 10", 
+
+      "symbol": "CLYDEVACDPS", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 20741845, 
+
+      "usdReference": 23591.36, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Clyde Drexler", 
+
+        "year": "2021", 
+
+        "set": "Onyx Vintage", 
+
+        "variation": "Parallel Autograph Blue-Ink", 
+
+        "number": "VACD", 
+
+        "category": "Basketball", 
+
+        "condition": "PSA 9/Auto 10", 
+
+        "investment": 5.0, 
+
+        "potential_profit": 23586.36, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "01/19/2022" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "01/19/2022", 
+
+        "Quantity": "1", 
+
+        "Card": "2021 Onyx Vintage Clyde Drexler Parallel Autograph Blue-Ink #VACD PSA 9/Auto 10", 
+
+        "Player": "Clyde Drexler", 
+
+        "Year": "2021", 
+
+        "Set": "Onyx Vintage", 
+
+        "Variation": "Parallel Autograph Blue-Ink", 
+
+        "Number": "VACD", 
+
+        "Category": "Basketball", 
+
+        "Condition": "PSA 9/Auto 10", 
+
+        "Investment": "5", 
+
+        "Current Value": "23591.36", 
+
+        "Potential Profit": "23586.36", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    }, 
+
+    { 
+
+      "name": "2020 Panini Playbook Nick Chubb #28 Raw", 
+
+      "symbol": "NICK28RAW", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 255456, 
+
+      "usdReference": 290.55, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Nick Chubb", 
+
+        "year": "2020", 
+
+        "set": "Panini Playbook", 
+
+        "variation": "", 
+
+        "number": "28", 
+
+        "category": "Football", 
+
+        "condition": "Raw", 
+
+        "investment": 1.0, 
+
+        "potential_profit": 289.55, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "10/15/2021" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "10/15/2021", 
+
+        "Quantity": "1", 
+
+        "Card": "2020 Panini Playbook Nick Chubb #28 Raw", 
+
+        "Player": "Nick Chubb", 
+
+        "Year": "2020", 
+
+        "Set": "Panini Playbook", 
+
+        "Variation": "", 
+
+        "Number": "28", 
+
+        "Category": "Football", 
+
+        "Condition": "Raw", 
+
+        "Investment": "1", 
+
+        "Current Value": "290.55", 
+
+        "Potential Profit": "289.55", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    } 
+
+  ] 
+
+} 
+
+{ 
+
+  "items": [ 
+
+    { 
+
+      "name": "2020 Panini Mosaic Prizm Tom Brady Reactive Green Prizm #298 SGC 9", 
+
+      "symbol": "TOM298SGC9", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 682305, 
+
+      "usdReference": 776.04, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Tom Brady", 
+
+        "year": "2020", 
+
+        "set": "Panini Mosaic Prizm", 
+
+        "variation": "Reactive Green Prizm", 
+
+        "number": "298", 
+
+        "category": "Football", 
+
+        "condition": "SGC 9", 
+
+        "investment": 3.0, 
+
+        "potential_profit": 773.04, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "05/25/2021" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "05/25/2021", 
+
+        "Quantity": "1", 
+
+        "Card": "2020 Panini Mosaic Prizm Tom Brady Reactive Green Prizm #298 SGC 9", 
+
+        "Player": "Tom Brady", 
+
+        "Year": "2020", 
+
+        "Set": "Panini Mosaic Prizm", 
+
+        "Variation": "Reactive Green Prizm", 
+
+        "Number": "298", 
+
+        "Category": "Football", 
+
+        "Condition": "SGC 9", 
+
+        "Investment": "3", 
+
+        "Current Value": "776.04", 
+
+        "Potential Profit": "773.04", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    }, 
+
+    { 
+
+      "name": "2020 Upper Deck Series 2 Vitali Kravtsov Dazzlers Green #DZ-82 SGC 10", 
+
+      "symbol": "VITALIDZ82S", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 2989282, 
+
+      "usdReference": 3399.95, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Vitali Kravtsov", 
+
+        "year": "2020", 
+
+        "set": "Upper Deck Series 2", 
+
+        "variation": "Dazzlers Green", 
+
+        "number": "DZ-82", 
+
+        "category": "Hockey", 
+
+        "condition": "SGC 10", 
+
+        "investment": 4.0, 
+
+        "potential_profit": 3395.95, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "05/15/2022" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "05/15/2022", 
+
+        "Quantity": "1", 
+
+        "Card": "2020 Upper Deck Series 2 Vitali Kravtsov Dazzlers Green #DZ-82 SGC 10", 
+
+        "Player": "Vitali Kravtsov", 
+
+        "Year": "2020", 
+
+        "Set": "Upper Deck Series 2", 
+
+        "Variation": "Dazzlers Green", 
+
+        "Number": "DZ-82", 
+
+        "Category": "Hockey", 
+
+        "Condition": "SGC 10", 
+
+        "Investment": "4", 
+
+        "Current Value": "3399.95", 
+
+        "Potential Profit": "3395.95", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    }, 
+
+    { 
+
+      "name": "2021 Donruss Retro 87’ Gavin Lux Retro 87’ Signatures #87S-GL SGC 9/Auto 10", 
+
+      "symbol": "GAVIN87SGLS", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 710536, 
+
+      "usdReference": 808.15, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Gavin Lux", 
+
+        "year": "2021", 
+
+        "set": "Donruss Retro 87’", 
+
+        "variation": "Retro 87’ Signatures", 
+
+        "number": "87S-GL", 
+
+        "category": "Baseball", 
+
+        "condition": "SGC 9/Auto 10", 
+
+        "investment": 4.0, 
+
+        "potential_profit": 804.15, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "10/19/2021" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "10/19/2021", 
+
+        "Quantity": "1", 
+
+        "Card": "2021 Donruss Retro 87’ Gavin Lux Retro 87’ Signatures #87S-GL SGC 9/Auto 10", 
+
+        "Player": "Gavin Lux", 
+
+        "Year": "2021", 
+
+        "Set": "Donruss Retro 87’", 
+
+        "Variation": "Retro 87’ Signatures", 
+
+        "Number": "87S-GL", 
+
+        "Category": "Baseball", 
+
+        "Condition": "SGC 9/Auto 10", 
+
+        "Investment": "4", 
+
+        "Current Value": "808.15", 
+
+        "Potential Profit": "804.15", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    }, 
+
+    { 
+
+      "name": "2005 SP Authentic Tom Brady #50 SGC 8.5", 
+
+      "symbol": "TOM50SGC85", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 3391892, 
+
+      "usdReference": 3857.87, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Tom Brady", 
+
+        "year": "2005", 
+
+        "set": "SP Authentic", 
+
+        "variation": "", 
+
+        "number": "50", 
+
+        "category": "Football", 
+
+        "condition": "SGC 8.5", 
+
+        "investment": 1.0, 
+
+        "potential_profit": 3856.87, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "10/10/2011" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "10/10/2011", 
+
+        "Quantity": "1", 
+
+        "Card": "2005 SP Authentic Tom Brady #50 SGC 8.5", 
+
+        "Player": "Tom Brady", 
+
+        "Year": "2005", 
+
+        "Set": "SP Authentic", 
+
+        "Variation": "", 
+
+        "Number": "50", 
+
+        "Category": "Football", 
+
+        "Condition": "SGC 8.5", 
+
+        "Investment": "1", 
+
+        "Current Value": "3857.87", 
+
+        "Potential Profit": "3856.87", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    } 
+
+  ] 
+
+} 
+
+{ 
+
+  "items": [ 
+
+    { 
+
+      "name": "2021 Topps Dylan Carlson 52 Redux #T52-33 Dylan Carlson SGC 9.5", 
+
+      "symbol": "DYLANT5233D", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 492535, 
+
+      "usdReference": 560.2, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Dylan Carlson", 
+
+        "year": "2021", 
+
+        "set": "Topps", 
+
+        "variation": "52 Redux", 
+
+        "number": "T52-33 Dylan Carlson", 
+
+        "category": "Baseball", 
+
+        "condition": "SGC 9.5", 
+
+        "investment": 4.0, 
+
+        "potential_profit": 556.2, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "11/19/2021" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "11/19/2021", 
+
+        "Quantity": "1", 
+
+        "Card": "2021 Topps Dylan Carlson 52 Redux #T52-33 Dylan Carlson SGC 9.5", 
+
+        "Player": "Dylan Carlson", 
+
+        "Year": "2021", 
+
+        "Set": "Topps", 
+
+        "Variation": "52 Redux", 
+
+        "Number": "T52-33 Dylan Carlson", 
+
+        "Category": "Baseball", 
+
+        "Condition": "SGC 9.5", 
+
+        "Investment": "4", 
+
+        "Current Value": "560.20", 
+
+        "Potential Profit": "556.20", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    }, 
+
+    { 
+
+      "name": "2021 Topps Heritage Mike Trout #169 Raw", 
+
+      "symbol": "MIKE169RAW", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 291248, 
+
+      "usdReference": 331.26, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Mike Trout", 
+
+        "year": "2021", 
+
+        "set": "Topps Heritage", 
+
+        "variation": "", 
+
+        "number": "169", 
+
+        "category": "Baseball", 
+
+        "condition": "Raw", 
+
+        "investment": 1.0, 
+
+        "potential_profit": 330.26, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "12/19/2021" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "12/19/2021", 
+
+        "Quantity": "1", 
+
+        "Card": "2021 Topps Heritage Mike Trout #169 Raw", 
+
+        "Player": "Mike Trout", 
+
+        "Year": "2021", 
+
+        "Set": "Topps Heritage", 
+
+        "Variation": "", 
+
+        "Number": "169", 
+
+        "Category": "Baseball", 
+
+        "Condition": "Raw", 
+
+        "Investment": "1", 
+
+        "Current Value": "331.26", 
+
+        "Potential Profit": "330.26", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    }, 
+
+    { 
+
+      "name": "1963 Topps Ernie Banks - Hank Aaron Power Plus #242 Raw", 
+
+      "symbol": "ERNIE242RAW", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 12526315, 
+
+      "usdReference": 14247.18, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Ernie Banks - Hank Aaron", 
+
+        "year": "1963", 
+
+        "set": "Topps", 
+
+        "variation": "Power Plus", 
+
+        "number": "242", 
+
+        "category": "Baseball", 
+
+        "condition": "Raw", 
+
+        "investment": 2.0, 
+
+        "potential_profit": 14245.18, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "05/19/1996" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "05/19/1996", 
+
+        "Quantity": "1", 
+
+        "Card": "1963 Topps Ernie Banks - Hank Aaron Power Plus #242 Raw", 
+
+        "Player": "Ernie Banks - Hank Aaron", 
+
+        "Year": "1963", 
+
+        "Set": "Topps", 
+
+        "Variation": "Power Plus", 
+
+        "Number": "242", 
+
+        "Category": "Baseball", 
+
+        "Condition": "Raw", 
+
+        "Investment": "2", 
+
+        "Current Value": "14247.18", 
+
+        "Potential Profit": "14245.18", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    } 
+
+  ] 
+
+} 
+
+{ 
+
+  "items": [ 
+
+    { 
+
+      "name": "2020 Topps Chrome Update Sapphire Ken Griffey Jr. Base Sapphire #U-150 SGC 10", 
+
+      "symbol": "KENU150SGC1", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 1078109, 
+
+      "usdReference": 1226.22, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Ken Griffey Jr.", 
+
+        "year": "2020", 
+
+        "set": "Topps Chrome Update Sapphire", 
+
+        "variation": "Base Sapphire", 
+
+        "number": "U-150", 
+
+        "category": "Baseball", 
+
+        "condition": "SGC 10", 
+
+        "investment": 12.0, 
+
+        "potential_profit": 1214.22, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "12/20/2020" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "12/20/2020", 
+
+        "Quantity": "1", 
+
+        "Card": "2020 Topps Chrome Update Sapphire Ken Griffey Jr. Base Sapphire #U-150 SGC 10", 
+
+        "Player": "Ken Griffey Jr.", 
+
+        "Year": "2020", 
+
+        "Set": "Topps Chrome Update Sapphire", 
+
+        "Variation": "Base Sapphire", 
+
+        "Number": "U-150", 
+
+        "Category": "Baseball", 
+
+        "Condition": "SGC 10", 
+
+        "Investment": "12", 
+
+        "Current Value": "1226.22", 
+
+        "Potential Profit": "1214.22", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    }, 
+
+    { 
+
+      "name": "2021 Panini Prizm Aristides Aquino Blue Mojo #208 SGC 10", 
+
+      "symbol": "ARISTIDES20", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 757618, 
+
+      "usdReference": 861.7, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Aristides Aquino", 
+
+        "year": "2021", 
+
+        "set": "Panini Prizm", 
+
+        "variation": "Blue Mojo", 
+
+        "number": "208", 
+
+        "category": "Baseball", 
+
+        "condition": "SGC 10", 
+
+        "investment": 20.0, 
+
+        "potential_profit": 841.7, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "09/20/2021" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "09/20/2021", 
+
+        "Quantity": "1", 
+
+        "Card": "2021 Panini Prizm Aristides Aquino Blue Mojo #208 SGC 10", 
+
+        "Player": "Aristides Aquino", 
+
+        "Year": "2021", 
+
+        "Set": "Panini Prizm", 
+
+        "Variation": "Blue Mojo", 
+
+        "Number": "208", 
+
+        "Category": "Baseball", 
+
+        "Condition": "SGC 10", 
+
+        "Investment": "20", 
+
+        "Current Value": "861.70", 
+
+        "Potential Profit": "841.70", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    }, 
+
+    { 
+
+      "name": "2021 Panini Diamond Kings Roger Maris Blue Frame #101 SGC 10", 
+
+      "symbol": "ROGER101SGC", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 774508, 
+
+      "usdReference": 880.91, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Roger Maris", 
+
+        "year": "2021", 
+
+        "set": "Panini Diamond Kings", 
+
+        "variation": "Blue Frame", 
+
+        "number": "101", 
+
+        "category": "Baseball", 
+
+        "condition": "SGC 10", 
+
+        "investment": 20.0, 
+
+        "potential_profit": 860.91, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "11/20/2021" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "11/20/2021", 
+
+        "Quantity": "1", 
+
+        "Card": "2021 Panini Diamond Kings Roger Maris Blue Frame #101 SGC 10", 
+
+        "Player": "Roger Maris", 
+
+        "Year": "2021", 
+
+        "Set": "Panini Diamond Kings", 
+
+        "Variation": "Blue Frame", 
+
+        "Number": "101", 
+
+        "Category": "Baseball", 
+
+        "Condition": "SGC 10", 
+
+        "Investment": "20", 
+
+        "Current Value": "880.91", 
+
+        "Potential Profit": "860.91", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    } 
+
+  ] 
+
+} 
+
+, 
+
+{ 
+
+"name": "2021 Donruss OpGc Fernando TaGs Jr. Lime Green #27 SGC 10", 
+
+"symbol": "FERNANDO27S", 
+
+"quanGty": "1", 
+
+"btcPriceSats": 490381, 
+
+"usdReference": 557.75, 
+
+"btcUsdAtCalc": 113738.0, 
+
+"payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+"payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+"payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+"payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+"metadata": { 
+
+"player": "Fernando TaGs Jr.", 
+
+"year": "2021", 
+
+"set": "Donruss OpGc", 
+
+"variaGon": "Lime Green", 
+
+"number": "27", 
+
+"category": "Baseball", 
+
+"condiGon": "SGC 10", 
+
+"investment": 20.0, 
+
+"potenGal_profit": 537.75, 
+
+"ladder_id": "", 
+
+"notes": "", 
+
+"date_purchased": "11/20/2021" 
+
+}, 
+
+"raw": { 
+
+"Date Purchased": "11/20/2021", 
+
+"QuanGty": "1", 
+
+"Card": "2021 Donruss OpGc Fernando TaGs Jr. Lime Green #27 SGC 10", 
+
+"Player": "Fernando TaGs Jr.", 
+
+"Year": "2021", 
+
+"Set": "Donruss OpGc", 
+
+"VariaGon": "Lime Green", 
+
+"Number": "27", 
+
+"Category": "Baseball", 
+
+"CondiGon": "SGC 10", 
+
+"Investment": "20", 
+
+"Current Value": "557.75", 
+
+"PotenGal Profit": "537.75", 
+
+"Ladder ID": "", 
+
+"Notes": "" 
+
+} 
+
+}, 
+
+{ 
+
+"name": "2021 Donruss OpGc Vladamir Guerrero Jr. Lime Green #182 SGC 10", 
+
+"symbol": "VLADAMIR182", 
+
+"quanGty": "1", 
+
+"btcPriceSats": 644780, 
+
+"usdReference": 733.36, 
+
+"btcUsdAtCalc": 113738.0, 
+
+"payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+"payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+"payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+"payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+"metadata": { 
+
+"player": "Vladamir Guerrero Jr.", 
+
+"year": "2021", 
+
+"set": "Donruss OpGc", 
+
+"variaGon": "Lime Green", 
+
+"number": "182", 
+
+"category": "Baseball", 
+
+"condiGon": "SGC 10", 
+
+"investment": 20.0, 
+
+"potenGal_profit": 713.36, 
+
+"ladder_id": "", 
+
+"notes": "", 
+
+"date_purchased": "11/20/2021" 
+
+}, 
+
+"raw": { 
+
+"Date Purchased": "11/20/2021", 
+
+"QuanGty": "1", 
+
+"Card": "2021 Donruss OpGc Vladamir Guerrero Jr. Lime Green #182 SGC 10", 
+
+"Player": "Vladamir Guerrero Jr.", 
+
+"Year": "2021", 
+
+"Set": "Donruss OpGc", 
+
+"VariaGon": "Lime Green", 
+
+"Number": "182", 
+
+"Category": "Baseball", 
+
+"CondiGon": "SGC 10", 
+
+"Investment": "20", 
+
+"Current Value": "733.36", 
+
+"PotenGal Profit": "713.36", 
+
+"Ladder ID": "", 
+
+"Notes": "" 
+
+} 
+
+}, 
+
+{ 
+
+"name": "2021 Panini Diamond Kings Dylan Carlson ArGst Proof Blue #64 SGC 10", 
+
+"symbol": "DYLAN64SGC1", 
+
+"quanGty": "1", 
+
+"btcPriceSats": 1407252, 
+
+"usdReference": 1600.58, 
+
+"btcUsdAtCalc": 113738.0, 
+
+"payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+"payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+"payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+"payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+"metadata": { 
+
+"player": "Dylan Carlson", 
+
+"year": "2021", 
+
+"set": "Panini Diamond Kings", 
+
+"variaGon": "ArGst Proof Blue", 
+
+"number": "64", 
+
+"category": "Baseball", 
+
+"condiGon": "SGC 10", 
+
+"investment": 20.0, 
+
+"potenGal_profit": 1580.58, 
+
+"ladder_id": "", 
+
+"notes": "", 
+
+"date_purchased": "11/20/2021" 
+
+}, 
+
+"raw": { 
+
+"Date Purchased": "11/20/2021", 
+
+"QuanGty": "1", 
+
+"Card": "2021 Panini Diamond Kings Dylan Carlson ArGst Proof Blue #64 SGC 10", 
+
+"Player": "Dylan Carlson", 
+
+"Year": "2021", 
+
+"Set": "Panini Diamond Kings", 
+
+"VariaGon": "ArGst Proof Blue", 
+
+"Number": "64", 
+
+"Category": "Baseball", 
+
+"CondiGon": "SGC 10", 
+
+"Investment": "20", 
+
+"Current Value": "1600.58", 
+
+"PotenGal Profit": "1580.58", 
+
+"Ladder ID": "", 
+
+"Notes": "" 
+
+} 
+
+}, 
+
+{ 
+
+"name": "2018-19 Donruss OpGc Josh Okogie Holo Prizm #194 SGC 10", 
+
+"symbol": "JOSH194SGC1", 
+
+"quanGty": "1", 
+
+"btcPriceSats": 1580606, 
+
+"usdReference": 1797.75, 
+
+"btcUsdAtCalc": 113738.0, 
+
+"payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+"payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+"payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+"payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+"metadata": { 
+
+"player": "Josh Okogie", 
+
+"year": "2018-19", 
+
+"set": "Donruss OpGc", 
+
+"variaGon": "Holo Prizm", 
+
+"number": "194", 
+
+"category": "Basketball", 
+
+"condiGon": "SGC 10", 
+
+"investment": 20.0, 
+
+"potenGal_profit": 1777.75, 
+
+"ladder_id": "", 
+
+"notes": "", 
+
+"date_purchased": "05/14/2019" 
+
+}, 
+
+"raw": { 
+
+"Date Purchased": "05/14/2019", 
+
+"QuanGty": "1", 
+
+"Card": "2018-19 Donruss OpGc Josh Okogie Holo Prizm #194 SGC 10", 
+
+"Player": "Josh Okogie", 
+
+"Year": "2018-19", 
+
+"Set": "Donruss OpGc", 
+
+"VariaGon": "Holo Prizm", 
+
+"Number": "194", 
+
+"Category": "Basketball", 
+
+"CondiGon": "SGC 10", 
+
+"Investment": "20", 
+
+"Current Value": "1797.75", 
+
+"PotenGal Profit": "1777.75", 
+
+"Ladder ID": "", 
+
+"Notes": "" 
+
+} 
+
+}, 
+
+{ 
+
+"name": "2021 Topps Nolan Arenado 70 Years Of Topps #70YT-52 SGC 10", 
+
+"symbol": "NOLAN70YT52", 
+
+"quanGty": "1", 
+
+"btcPriceSats": 232798, 
+
+"usdReference": 264.78, 
+
+"btcUsdAtCalc": 113738.0, 
+
+"payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+"payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+"payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+"payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+"metadata": { 
+
+"player": "Nolan Arenado", 
+
+"year": "2021", 
+
+"set": "Topps", 
+
+"variaGon": "70 Years Of Topps", 
+
+"number": "70YT-52", 
+
+"category": "Baseball", 
+
+"condiGon": "SGC 10", 
+
+"investment": 20.0, 
+
+"potenGal_profit": 244.78, 
+
+"ladder_id": "", 
+
+"notes": "", 
+
+"date_purchased": "11/20/2021" 
+
+}, 
+
+"raw": { 
+
+"Date Purchased": "11/20/2021", 
+
+"QuanGty": "1", 
+
+"Card": "2021 Topps Nolan Arenado 70 Years Of Topps #70YT-52 SGC 10", 
+
+"Player": "Nolan Arenado", 
+
+"Year": "2021", 
+
+"Set": "Topps", 
+
+"VariaGon": "70 Years Of Topps", 
+
+"Number": "70YT-52", 
+
+"Category": "Baseball", 
+
+"CondiGon": "SGC 10", 
+
+"Investment": "20", 
+
+"Current Value": "264.78", 
+
+"PotenGal Profit": "244.78", 
+
+"Ladder ID": "", 
+
+"Notes": "" 
+
+} 
+
+}, 
+
+{ 
+
+"name": "2019 Panini Hoops Premium Stock Zion Williamson Base #258 SGC 9", 
+
+"symbol": "ZION258SGC9", 
+
+"quanGty": "1", 
+
+"btcPriceSats": 1760933, 
+
+"usdReference": 2002.85, 
+
+"btcUsdAtCalc": 113738.0, 
+
+"payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+"payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+"payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+"payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+"metadata": { 
+
+"player": "Zion Williamson", 
+
+"year": "2019", 
+
+"set": "Panini Hoops Premium Stock", 
+
+"variaGon": "Base", 
+
+"number": "258", 
+
+"category": "Basketball", 
+
+"condiGon": "SGC 9", 
+
+"investment": 10.0, 
+
+"potenGal_profit": 1992.85, 
+
+"ladder_id": "", 
+
+"notes": "", 
+
+"date_purchased": "12/20/2019" 
+
+}, 
+
+"raw": { 
+
+"Date Purchased": "12/20/2019", 
+
+"QuanGty": "1", 
+
+"Card": "2019 Panini Hoops Premium Stock Zion Williamson Base #258 SGC 9", 
+
+"Player": "Zion Williamson", 
+
+"Year": "2019", 
+
+"Set": "Panini Hoops Premium Stock", 
+
+"VariaGon": "Base", 
+
+"Number": "258", 
+
+"Category": "Basketball", 
+
+"CondiGon": "SGC 9", 
+
+"Investment": "10", 
+
+"Current Value": "2002.85", 
+
+"PotenGal Profit": "1992.85", 
+
+"Ladder ID": "", 
+
+"Notes": "" 
+
+} 
+
+}, 
+
+{ 
+
+"name": "2019 Panini RevoluGon Luka Doncic #73 SGC 9", 
+
+"symbol": "LUKA73SGC9", 
+
+"quanGty": "1", 
+
+"btcPriceSats": 487243, 
+
+"usdReference": 554.18, 
+
+"btcUsdAtCalc": 113738.0, 
+
+"payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+"payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+"payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+"payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+"metadata": { 
+
+"player": "Luka Doncic", 
+
+"year": "2019", 
+
+"set": "Panini RevoluGon", 
+
+"variaGon": "", 
+
+"number": "73", 
+
+"category": "Basketball", 
+
+"condiGon": "SGC 9", 
+
+"investment": 20.0, 
+
+"potenGal_profit": 534.18, 
+
+"ladder_id": "", 
+
+"notes": "", 
+
+"date_purchased": "04/20/2020" 
+
+}, 
+
+"raw": { 
+
+"Date Purchased": "04/20/2020", 
+
+"QuanGty": "1", 
+
+"Card": "2019 Panini RevoluGon Luka Doncic #73 SGC 9", 
+
+"Player": "Luka Doncic", 
+
+"Year": "2019", 
+
+"Set": "Panini RevoluGon", 
+
+"VariaGon": "", 
+
+"Number": "73", 
+
+"Category": "Basketball", 
+
+"CondiGon": "SGC 9", 
+
+"Investment": "20", 
+
+"Current Value": "554.18", 
+
+"PotenGal Profit": "534.18", 
+
+"Ladder ID": "", 
+
+"Notes": "" 
+
+} 
+
+}, 
+
+{ 
+
+  "items": [ 
+
+    { 
+
+      "name": "2021 Donruss Optic Fernando Tatis Jr. Lime Green #27 SGC 10", 
+
+      "symbol": "FERNANDO27S", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 490381, 
+
+      "usdReference": 557.75, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Fernando Tatis Jr.", 
+
+        "year": "2021", 
+
+        "set": "Donruss Optic", 
+
+        "variation": "Lime Green", 
+
+        "number": "27", 
+
+        "category": "Baseball", 
+
+        "condition": "SGC 10", 
+
+        "investment": 20.0, 
+
+        "potential_profit": 537.75, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "11/20/2021" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "11/20/2021", 
+
+        "Quantity": "1", 
+
+        "Card": "2021 Donruss Optic Fernando Tatis Jr. Lime Green #27 SGC 10", 
+
+        "Player": "Fernando Tatis Jr.", 
+
+        "Year": "2021", 
+
+        "Set": "Donruss Optic", 
+
+        "Variation": "Lime Green", 
+
+        "Number": "27", 
+
+        "Category": "Baseball", 
+
+        "Condition": "SGC 10", 
+
+        "Investment": "20", 
+
+        "Current Value": "557.75", 
+
+        "Potential Profit": "537.75", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    }, 
+
+    { 
+
+      "name": "2021 Donruss Optic Vladimir Guerrero Jr. Lime Green #182 SGC 10", 
+
+      "symbol": "VLADAMIR182", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 644780, 
+
+      "usdReference": 733.36, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Vladimir Guerrero Jr.", 
+
+        "year": "2021", 
+
+        "set": "Donruss Optic", 
+
+        "variation": "Lime Green", 
+
+        "number": "182", 
+
+        "category": "Baseball", 
+
+        "condition": "SGC 10", 
+
+        "investment": 20.0, 
+
+        "potential_profit": 713.36, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "11/20/2021" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "11/20/2021", 
+
+        "Quantity": "1", 
+
+        "Card": "2021 Donruss Optic Vladimir Guerrero Jr. Lime Green #182 SGC 10", 
+
+        "Player": "Vladimir Guerrero Jr.", 
+
+        "Year": "2021", 
+
+        "Set": "Donruss Optic", 
+
+        "Variation": "Lime Green", 
+
+        "Number": "182", 
+
+        "Category": "Baseball", 
+
+        "Condition": "SGC 10", 
+
+        "Investment": "20", 
+
+        "Current Value": "733.36", 
+
+        "Potential Profit": "713.36", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    }, 
+
+    { 
+
+      "name": "2021 Panini Diamond Kings Dylan Carlson Artist Proof Blue #64 SGC 10", 
+
+      "symbol": "DYLAN64SGC1", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 1407252, 
+
+      "usdReference": 1600.58, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Dylan Carlson", 
+
+        "year": "2021", 
+
+        "set": "Panini Diamond Kings", 
+
+        "variation": "Artist Proof Blue", 
+
+        "number": "64", 
+
+        "category": "Baseball", 
+
+        "condition": "SGC 10", 
+
+        "investment": 20.0, 
+
+        "potential_profit": 1580.58, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "11/20/2021" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "11/20/2021", 
+
+        "Quantity": "1", 
+
+        "Card": "2021 Panini Diamond Kings Dylan Carlson Artist Proof Blue #64 SGC 10", 
+
+        "Player": "Dylan Carlson", 
+
+        "Year": "2021", 
+
+        "Set": "Panini Diamond Kings", 
+
+        "Variation": "Artist Proof Blue", 
+
+        "Number": "64", 
+
+        "Category": "Baseball", 
+
+        "Condition": "SGC 10", 
+
+        "Investment": "20", 
+
+        "Current Value": "1600.58", 
+
+        "Potential Profit": "1580.58", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    }, 
+
+    { 
+
+      "name": "2018-19 Donruss Optic Josh Okogie Holo Prizm #194 SGC 10", 
+
+      "symbol": "JOSH194SGC1", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 1580606, 
+
+      "usdReference": 1797.75, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Josh Okogie", 
+
+        "year": "2018-19", 
+
+        "set": "Donruss Optic", 
+
+        "variation": "Holo Prizm", 
+
+        "number": "194", 
+
+        "category": "Basketball", 
+
+        "condition": "SGC 10", 
+
+        "investment": 20.0, 
+
+        "potential_profit": 1777.75, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "05/14/2019" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "05/14/2019", 
+
+        "Quantity": "1", 
+
+        "Card": "2018-19 Donruss Optic Josh Okogie Holo Prizm #194 SGC 10", 
+
+        "Player": "Josh Okogie", 
+
+        "Year": "2018-19", 
+
+        "Set": "Donruss Optic", 
+
+        "Variation": "Holo Prizm", 
+
+        "Number": "194", 
+
+        "Category": "Basketball", 
+
+        "Condition": "SGC 10", 
+
+        "Investment": "20", 
+
+        "Current Value": "1797.75", 
+
+        "Potential Profit": "1777.75", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    } 
+
+  ] 
+
+} 
+
+{ 
+
+  "items": [ 
+
+    { 
+
+      "name": "2021 Donruss Optic Fernando Tatis Jr. Lime Green #27 SGC 10", 
+
+      "symbol": "FERNANDO27S", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 490381, 
+
+      "usdReference": 557.75, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Fernando Tatis Jr.", 
+
+        "year": "2021", 
+
+        "set": "Donruss Optic", 
+
+        "variation": "Lime Green", 
+
+        "number": "27", 
+
+        "category": "Baseball", 
+
+        "condition": "SGC 10", 
+
+        "investment": 20.0, 
+
+        "potential_profit": 537.75, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "11/20/2021" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "11/20/2021", 
+
+        "Quantity": "1", 
+
+        "Card": "2021 Donruss Optic Fernando Tatis Jr. Lime Green #27 SGC 10", 
+
+        "Player": "Fernando Tatis Jr.", 
+
+        "Year": "2021", 
+
+        "Set": "Donruss Optic", 
+
+        "Variation": "Lime Green", 
+
+        "Number": "27", 
+
+        "Category": "Baseball", 
+
+        "Condition": "SGC 10", 
+
+        "Investment": "20", 
+
+        "Current Value": "557.75", 
+
+        "Potential Profit": "537.75", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    }, 
+
+    { 
+
+      "name": "2021 Donruss Optic Vladimir Guerrero Jr. Lime Green #182 SGC 10", 
+
+      "symbol": "VLADAMIR182", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 644780, 
+
+      "usdReference": 733.36, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Vladimir Guerrero Jr.", 
+
+        "year": "2021", 
+
+        "set": "Donruss Optic", 
+
+        "variation": "Lime Green", 
+
+        "number": "182", 
+
+        "category": "Baseball", 
+
+        "condition": "SGC 10", 
+
+        "investment": 20.0, 
+
+        "potential_profit": 713.36, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "11/20/2021" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "11/20/2021", 
+
+        "Quantity": "1", 
+
+        "Card": "2021 Donruss Optic Vladimir Guerrero Jr. Lime Green #182 SGC 10", 
+
+        "Player": "Vladimir Guerrero Jr.", 
+
+        "Year": "2021", 
+
+        "Set": "Donruss Optic", 
+
+        "Variation": "Lime Green", 
+
+        "Number": "182", 
+
+        "Category": "Baseball", 
+
+        "Condition": "SGC 10", 
+
+        "Investment": "20", 
+
+        "Current Value": "733.36", 
+
+        "Potential Profit": "713.36", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    }, 
+
+    { 
+
+      "name": "2021 Panini Diamond Kings Dylan Carlson Artist Proof Blue #64 SGC 10", 
+
+      "symbol": "DYLAN64SGC1", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 1407252, 
+
+      "usdReference": 1600.58, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Dylan Carlson", 
+
+        "year": "2021", 
+
+        "set": "Panini Diamond Kings", 
+
+        "variation": "Artist Proof Blue", 
+
+        "number": "64", 
+
+        "category": "Baseball", 
+
+        "condition": "SGC 10", 
+
+        "investment": 20.0, 
+
+        "potential_profit": 1580.58, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "11/20/2021" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "11/20/2021", 
+
+        "Quantity": "1", 
+
+        "Card": "2021 Panini Diamond Kings Dylan Carlson Artist Proof Blue #64 SGC 10", 
+
+        "Player": "Dylan Carlson", 
+
+        "Year": "2021", 
+
+        "Set": "Panini Diamond Kings", 
+
+        "Variation": "Artist Proof Blue", 
+
+        "Number": "64", 
+
+        "Category": "Baseball", 
+
+        "Condition": "SGC 10", 
+
+        "Investment": "20", 
+
+        "Current Value": "1600.58", 
+
+        "Potential Profit": "1580.58", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    }, 
+
+    { 
+
+      "name": "2021 Topps Nolan Arenado 70 Years Of Topps #70YT-52 SGC 10", 
+
+      "symbol": "NOLAN70YT52", 
+
+      "quantity": "1", 
+
+      "btcPriceSats": 232798, 
+
+      "usdReference": 264.78, 
+
+      "btcUsdAtCalc": 113738.0, 
+
+      "payout_eth": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_wbtc": "0xdd2be2fe65cac7f1772c9c5dee5a0216ac5cb6a7", 
+
+      "payout_eth2": "0x9d79821be713159ec1b69720794fa424d53e7949", 
+
+      "payout_btc": "bc1paljd8xzte5up8xe6mz5s4zcgyegg4x0n2lytzqjzkahn7y4sqvesuy3rgf", 
+
+      "metadata": { 
+
+        "player": "Nolan Arenado", 
+
+        "year": "2021", 
+
+        "set": "Topps", 
+
+        "variation": "70 Years Of Topps", 
+
+        "number": "70YT-52", 
+
+        "category": "Baseball", 
+
+        "condition": "SGC 10", 
+
+        "investment": 20.0, 
+
+        "potential_profit": 244.78, 
+
+        "ladder_id": "", 
+
+        "notes": "", 
+
+        "date_purchased": "11/20/2021" 
+
+      }, 
+
+      "raw": { 
+
+        "Date Purchased": "11/20/2021", 
+
+        "Quantity": "1", 
+
+        "Card": "2021 Topps Nolan Arenado 70 Years Of Topps #70YT-52 SGC 10", 
+
+        "Player": "Nolan Arenado", 
+
+        "Year": "2021", 
+
+        "Set": "Topps", 
+
+        "Variation": "70 Years Of Topps", 
+
+        "Number": "70YT-52", 
+
+        "Category": "Baseball", 
+
+        "Condition": "SGC 10", 
+
+        "Investment": "20", 
+
+        "Current Value": "264.78", 
+
+        "Potential Profit": "244.78", 
+
+        "Ladder ID": "", 
+
+        "Notes": "" 
+
+      } 
+
+    } 
+
+  ] 
+
+} 

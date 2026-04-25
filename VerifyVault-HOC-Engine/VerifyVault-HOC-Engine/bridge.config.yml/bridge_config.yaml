@@ -1,0 +1,57 @@
+/mnt/data/bridge_config.yaml" 
+
+""" 
+
+bridge: 
+
+  name: btbbz-mirror-bridge 
+
+  description: BRC-20 ↔ EVM bridge for BTBBZ to Wrapped BTBBZ (wBTBBZ) 
+
+  brc20_token: 
+
+    ticker: BTBBZ 
+
+    inscription_id: cca7fa87ca897f3b5844b8ea1a62896b0407d80ca3bb0cba81c118f123b95a36i0 
+
+    deployer: bc1pcrm2s7hy266mhfcs2q0sppk6nkqhm8w4vq0y72yn3my9m3xskjfs1h3dsr 
+
+    supply: 126665 
+
+    decimals: 18 
+
+    start_inscription: 98391596 
+
+    end_inscription: 98603081 
+
+    deployed_at: "2025-06-29T04:00:43Z" 
+
+  evm_token: 
+
+    name: Wrapped BTBBZ 
+
+    symbol: wBTBBZ 
+
+    contract: to-be-deployed 
+
+    mint_burn_authority: bridge 
+
+  vault_control: 
+
+    type: multisig 
+
+    signers:  
+
+0xf165bf1090c83c69d47234aa9fbd62100db0d396 
+
+0x8b8143864297858b81d02b76df2a5c1824ea01e8 
+
+    threshold: 2 
+
+  proof_layer: 
+
+    chainlink_proof: true 
+
+    arweave_backup: true 
+
+""" 
