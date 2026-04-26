@@ -469,23 +469,23 @@
         <div class="dashboard-grid">
             <div class="card">
                 <div class="card-label">HouseOfCards Collection</div>
-                <div class="card-value" id="portfolioValue">$1.29M</div>
-                <div class="card-secondary" id="portfolioChange">↑ $7,015.61 (April 25)</div>
+                <div class="card-value" id="portfolioValue">$1.28M</div>
+                <div class="card-secondary" id="portfolioChange">↑ $951.86 (April 24)</div>
             </div>
             <div class="card">
                 <div class="card-label">Total Value</div>
-                <div class="card-value" id="invested">$1,289,632.47</div>
-                <div class="card-secondary">Verified April 25, 2026</div>
+                <div class="card-value" id="invested">$1,282,616.86</div>
+                <div class="card-secondary">Real-time Valuation</div>
             </div>
             <div class="card">
-                <div class="card-label">Total Investment</div>
-                <div class="card-value" id="totalProfit">$117,438.04</div>
-                <div class="card-secondary">Original Capital</div>
+                <div class="card-label">Daily Growth</div>
+                <div class="card-value" id="totalProfit">+$951.86</div>
+                <div class="card-secondary">Today's Performance</div>
             </div>
             <div class="card">
                 <div class="card-label">Holdings</div>
-                <div class="card-value" id="holdings">421</div>
-                <div class="card-secondary">Real Cards in Vault</div>
+                <div class="card-value" id="holdings">180+</div>
+                <div class="card-secondary">Cards in Vault</div>
             </div>
         </div>
 
@@ -665,7 +665,7 @@
                     labels: Array.from({length: 24}, (_, i) => `${i}:00`),
                     datasets: [{
                         label: 'HouseOfCards Collection Value',
-                        data: Array.from({length: 24}, () => 1289632.47 + (Math.random() * 50000 - 25000)),
+                        data: Array.from({length: 24}, () => 1282616.86 + (Math.random() * 100000 - 50000)),
                         borderColor: '#6366f1',
                         backgroundColor: 'rgba(99, 102, 241, 0.1)',
                         tension: 0.4,
@@ -689,10 +689,10 @@
             new Chart(document.getElementById('allocationChart'), {
                 type: 'doughnut',
                 data: {
-                    labels: ['Football', 'Basketball', 'Baseball', 'Soccer', 'Other'],
+                    labels: ['Football', 'Basketball', 'Baseball', 'Soccer'],
                     datasets: [{
-                        data: [93, 147, 142, 32, 7],
-                        backgroundColor: ['#6366f1', '#3b82f6', '#10b981', '#f59e0b', '#8b5cf6'],
+                        data: [42, 28, 18, 12],
+                        backgroundColor: ['#6366f1', '#3b82f6', '#10b981', '#f59e0b'],
                         borderColor: 'rgba(15, 23, 42, 0.8)',
                         borderWidth: 2
                     }]
@@ -706,12 +706,12 @@
         }
 
         function simulatePriceUpdate() {
-            const baseValue = 1289632.47;
-            const dailyChange = 7015.61 + (Math.random() * 500 - 250);
+            const baseValue = 1282616.86;
+            const dailyChange = 951.86 + (Math.random() * 200 - 100);
             const newValue = baseValue + dailyChange;
             const change = (dailyChange / baseValue * 100).toFixed(2);
             document.getElementById('portfolioValue').textContent = '$' + (newValue / 1000000).toFixed(2) + 'M';
-            document.getElementById('portfolioChange').textContent = `${dailyChange > 0 ? '↑' : '↓'} $${Math.abs(dailyChange).toFixed(2)} (April 25)`;
+            document.getElementById('portfolioChange').textContent = `${dailyChange > 0 ? '↑' : '↓'} $${Math.abs(dailyChange).toFixed(2)} (April 24)`;
             initializeTicker();
         }
 
