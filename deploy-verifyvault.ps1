@@ -1,12 +1,12 @@
 # VerifyVault Smart Contract Deployment Automation
 # PowerShell Script - Ready to Use
 # Save as: deploy-verifyvault.ps1
-# Run: .\deploy-verifyvault.ps1 -Network Mainnet
+# Run: .\deploy-verifyvault.ps1 -Network sepolia
 
 param(
     [Parameter(Mandatory=$true)]
-    [ValidateSet("linea", "mainnet", "polygon", "arbitrum", "localhost")]
-    [string]$Network = "linea",
+    [ValidateSet("sepolia", "mainnet", "polygon", "arbitrum", "localhost")]
+    [string]$Network = "sepolia",
     
     [switch]$Initialize,
     [switch]$Test,
