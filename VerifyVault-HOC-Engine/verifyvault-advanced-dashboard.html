@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VerifyVault HOC Engine - Advanced Dashboard</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 50%, #0f1729 100%);
+            color: #e0e7ff;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(99, 102, 241, 0.2);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 1600px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #6366f1 0%, #3b82f6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .live-status {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #10b981;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .live-dot {
+            width: 8px;
+            height: 8px;
+            background: #10b981;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .controls {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        button {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.2) 0%, rgba(59, 130, 246, 0.1) 100%);
+            border: 1px solid rgba(99, 102, 241, 0.4);
+            color: #e0e7ff;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.4) 0%, rgba(59, 130, 246, 0.2) 100%);
+            border-color: rgba(99, 102, 241, 0.8);
+            transform: translateY(-2px);
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, #6366f1 0%, #3b82f6 50%, #06b6d4 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 800;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .card {
+            background: rgba(30, 41, 59, 0.8);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            border-radius: 12px;
+            padding: 1.5rem;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            border-color: rgba(99, 102, 241, 0.6);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(99, 102, 241, 0.2);
+        }
+
+        .card-label {
+            color: #94a3b8;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #6366f1;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-secondary {
+            font-size: 0.9rem;
+            color: #a5b4fc;
+        }
+
+        .chart-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .chart-card {
+            background: rgba(30, 41, 59, 0.8);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            border-radius: 12px;
+            padding: 2rem;
+            backdrop-filter: blur(10px);
+        }
+
+        .chart-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #e0e7ff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chart-wrapper {
+            position: relative;
+            height: 300px;
+        }
+
+        .section-title {
+            font-size: 1.6rem;
+            margin: 2rem 0 1rem;
+            color: #e0e7ff;
+            border-left: 4px solid #6366f1;
+            padding-left: 1rem;
+        }
+
+        .trading-panel {
+            background: rgba(30, 41, 59, 0.8);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            border-radius: 12px;
+            padding: 2rem;
+            backdrop-filter: blur(10px);
+            margin: 2rem 0;
+        }
+
+        .trading-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .trading-form {
+            background: rgba(15, 23, 42, 0.5);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid rgba(99, 102, 241, 0.2);
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-group label {
+            display: block;
+            color: #94a3b8;
+            font-size: 0.85rem;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            background: rgba(99, 102, 241, 0.1);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            color: #e0e7ff;
+            padding: 0.75rem;
+            border-radius: 6px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: rgba(99, 102, 241, 0.8);
+            background: rgba(99, 102, 241, 0.2);
+        }
+
+        .btn-submit {
+            width: 100%;
+            background: linear-gradient(135deg, #6366f1 0%, #3b82f6 100%);
+            border: none;
+            color: white;
+            padding: 0.75rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .btn-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(99, 102, 241, 0.3);
+        }
+
+        .trade-history {
+            margin-top: 2rem;
+        }
+
+        .trade-item {
+            background: rgba(99, 102, 241, 0.1);
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 0.75rem;
+            border-left: 4px solid #6366f1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .trade-info {
+            flex: 1;
+        }
+
+        .trade-player {
+            font-weight: 600;
+            color: #e0e7ff;
+            margin-bottom: 0.25rem;
+        }
+
+        .trade-time {
+            color: #94a3b8;
+            font-size: 0.85rem;
+        }
+
+        .trade-amount {
+            font-weight: 600;
+            color: #10b981;
+        }
+
+        .price-ticker {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .ticker-item {
+            background: rgba(30, 41, 59, 0.8);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .ticker-symbol {
+            color: #6366f1;
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .ticker-price {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #e0e7ff;
+            margin-bottom: 0.25rem;
+        }
+
+        .ticker-change {
+            color: #10b981;
+            font-size: 0.9rem;
+        }
+
+        .ticker-change.negative {
+            color: #ef4444;
+        }
+
+        .alerts-panel {
+            background: rgba(30, 41, 59, 0.8);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .alert-item {
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .alert-item.info {
+            background: rgba(59, 130, 246, 0.1);
+            border-left: 4px solid #3b82f6;
+        }
+
+        .alert-item.success {
+            background: rgba(16, 185, 129, 0.1);
+            border-left: 4px solid #10b981;
+        }
+
+        .alert-item.warning {
+            background: rgba(251, 146, 60, 0.1);
+            border-left: 4px solid #fb923c;
+        }
+
+        .alert-text {
+            flex: 1;
+            color: #e0e7ff;
+            font-size: 0.95rem;
+        }
+
+        .alert-close {
+            background: none;
+            border: none;
+            color: #94a3b8;
+            cursor: pointer;
+            font-size: 1.5rem;
+            padding: 0;
+            margin: 0;
+        }
+
+        .alert-close:hover {
+            color: #e0e7ff;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: #64748b;
+            border-top: 1px solid rgba(99, 102, 241, 0.2);
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .chart-container {
+                grid-template-columns: 1fr;
+            }
+
+            .card-value {
+                font-size: 1.5rem;
+            }
+        }
+
+        .stats-mini {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+
+        .stat-mini {
+            background: rgba(99, 102, 241, 0.1);
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid rgba(99, 102, 241, 0.2);
+        }
+
+        .stat-mini-label {
+            color: #94a3b8;
+            font-size: 0.75rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-mini-value {
+            color: #6366f1;
+            font-weight: 600;
+            font-size: 1.3rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">⚡ VerifyVault HOC</div>
+            <div class="live-status">
+                <span class="live-dot"></span>
+                Live Trading Enabled
+            </div>
+            <div class="controls">
+                <button onclick="simulatePriceUpdate()">📊 Update Prices</button>
+                <button onclick="openNotifications()">🔔 Alerts</button>
+                <button onclick="exportData()">📥 Export</button>
+                <button onclick="settingsPanel()">⚙️ Settings</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="hero">
+            <h1>Advanced Trading Dashboard</h1>
+            <p>Real-time portfolio management with live market feeds and trading simulation</p>
+        </div>
+
+        <div class="dashboard-grid">
+            <div class="card">
+                <div class="card-label">HouseOfCards Collection</div>
+                <div class="card-value" id="portfolioValue">$1.28M</div>
+                <div class="card-secondary" id="portfolioChange">↑ $951.86 (April 24)</div>
+            </div>
+            <div class="card">
+                <div class="card-label">Total Value</div>
+                <div class="card-value" id="invested">$1,282,616.86</div>
+                <div class="card-secondary">Real-time Valuation</div>
+            </div>
+            <div class="card">
+                <div class="card-label">Daily Growth</div>
+                <div class="card-value" id="totalProfit">+$951.86</div>
+                <div class="card-secondary">Today's Performance</div>
+            </div>
+            <div class="card">
+                <div class="card-label">Holdings</div>
+                <div class="card-value" id="holdings">180+</div>
+                <div class="card-secondary">Cards in Vault</div>
+            </div>
+        </div>
+
+        <h2 class="section-title">Live Market Ticker</h2>
+        <div class="price-ticker" id="tickerContainer">
+            <!-- Tickers will be populated by JavaScript -->
+        </div>
+
+        <div class="chart-container">
+            <div class="chart-card">
+                <div class="chart-title">
+                    24-Hour Price Movement
+                    <span style="font-size: 0.8rem; color: #94a3b8;">← Slide for history</span>
+                </div>
+                <div class="chart-wrapper">
+                    <canvas id="priceChart" role="img" aria-label="Price movement"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <div class="chart-title">Portfolio Allocation</div>
+                <div class="chart-wrapper">
+                    <canvas id="allocationChart" role="img" aria-label="Portfolio allocation"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title">Trading Panel</h2>
+        <div class="trading-panel">
+            <h3 style="color: #e0e7ff; margin-bottom: 1rem;">Execute Trade Simulation</h3>
+            <div class="trading-grid">
+                <div class="trading-form">
+                    <form onsubmit="executeTrade(event)">
+                        <div class="form-group">
+                            <label>Select Card</label>
+                            <select id="cardSelect" required>
+                                <option value="">Choose a card...</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Quantity</label>
+                            <input type="number" id="quantity" value="1" min="1" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Action</label>
+                            <select id="action" required>
+                                <option value="buy">Buy</option>
+                                <option value="sell">Sell</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn-submit">Execute Trade</button>
+                    </form>
+                </div>
+
+                <div class="trading-form">
+                    <h4 style="color: #e0e7ff; margin-bottom: 1rem;">Settlement Options</h4>
+                    <div class="form-group">
+                        <label>Payment Method</label>
+                        <select required>
+                            <option value="eth">Ethereum (ETH)</option>
+                            <option value="btc">Bitcoin (BTC)</option>
+                            <option value="wbtc">Wrapped Bitcoin (WBTC)</option>
+                            <option value="usd">USD Stablecoin</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Estimated Gas Fee</label>
+                        <input type="text" value="~$12.50" disabled>
+                    </div>
+                    <button class="btn-submit" onclick="confirmSettlement()">Confirm Settlement</button>
+                </div>
+            </div>
+
+            <div class="trade-history">
+                <h3 style="color: #e0e7ff; margin-bottom: 1rem;">Trade History</h3>
+                <div id="tradeList">
+                    <div class="trade-item">
+                        <div class="trade-info">
+                            <div class="trade-player">🏈 Tom Brady - Contenders #WTTBR</div>
+                            <div class="trade-time">Sold 2 hours ago</div>
+                        </div>
+                        <div class="trade-amount">+$243.50</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title">Alerts & Notifications</h2>
+        <div class="alerts-panel" id="alertsPanel">
+            <!-- Alerts will be populated by JavaScript -->
+        </div>
+
+        <h2 class="section-title">Performance Metrics</h2>
+        <div class="stats-mini">
+            <div class="stat-mini">
+                <div class="stat-mini-label">Best Performer</div>
+                <div class="stat-mini-value">+5,097%</div>
+            </div>
+            <div class="stat-mini">
+                <div class="stat-mini-label">Avg. Hold Time</div>
+                <div class="stat-mini-value">2.3 yrs</div>
+            </div>
+            <div class="stat-mini">
+                <div class="stat-mini-label">Sharpe Ratio</div>
+                <div class="stat-mini-value">3.24</div>
+            </div>
+            <div class="stat-mini">
+                <div class="stat-mini-label">Diversification</div>
+                <div class="stat-mini-value">4 Sports</div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>VerifyVault Advanced Trading Dashboard v2.0.0</p>
+        <p style="margin-top: 1rem; font-size: 0.85rem;">Real-time blockchain verification enabled • Live market feeds • Advanced analytics</p>
+    </footer>
+
+    <script>
+        const cardsData = [
+            { symbol: "WTTBR", player: "Tom Brady", value: 1214.91 },
+            { symbol: "202191PATRI", player: "Patrick Mahomes II", value: 1285.54 },
+            { symbol: "TOMC80SGC9", player: "Tom Brady", value: 1997.62 },
+            { symbol: "TOM135SGC10", player: "Tom Brady", value: 3349.11 },
+            { symbol: "IFEOMASSIOR", player: "Ifeoma Omumonu", value: 8094.75 },
+            { symbol: "KOBE296SGC9", player: "Kobe Bryant", value: 3734.81 },
+            { symbol: "FERNANDO27S", player: "Fernando Tatis Jr.", value: 557.75 },
+            { symbol: "VLADAMIR182", player: "Vladimir Guerrero Jr.", value: 733.36 }
+        ];
+
+        let tradeHistory = [];
+
+        function initializeCardSelect() {
+            const select = document.getElementById('cardSelect');
+            cardsData.forEach(card => {
+                const option = document.createElement('option');
+                option.value = card.symbol;
+                option.text = `${card.player} (${card.symbol}) - $${card.value.toFixed(2)}`;
+                select.appendChild(option);
+            });
+        }
+
+        function initializeTicker() {
+            const ticker = document.getElementById('tickerContainer');
+            ticker.innerHTML = cardsData.slice(0, 4).map(card => {
+                const change = (Math.random() * 10 - 5).toFixed(2);
+                const changeClass = change >= 0 ? '' : 'negative';
+                return `
+                    <div class="ticker-item">
+                        <div class="ticker-symbol">${card.symbol}</div>
+                        <div class="ticker-price">$${(card.value * (1 + change/100)).toFixed(2)}</div>
+                        <div class="ticker-change ${changeClass}">${change > 0 ? '+' : ''}${change}%</div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function initializeAlerts() {
+            const alerts = [
+                { type: 'success', text: '✓ Your ETH wallet is connected and verified' },
+                { type: 'info', text: 'ℹ️ New market data updated 2 minutes ago' },
+                { type: 'info', text: 'ℹ️ Tom Brady cards trending up +4.2% this week' }
+            ];
+
+            document.getElementById('alertsPanel').innerHTML = alerts.map(alert => `
+                <div class="alert-item ${alert.type}">
+                    <div class="alert-text">${alert.text}</div>
+                    <button class="alert-close">×</button>
+                </div>
+            `).join('');
+        }
+
+        function initializeCharts() {
+            // Price chart
+            new Chart(document.getElementById('priceChart'), {
+                type: 'line',
+                data: {
+                    labels: Array.from({length: 24}, (_, i) => `${i}:00`),
+                    datasets: [{
+                        label: 'HouseOfCards Collection Value',
+                        data: Array.from({length: 24}, () => 1282616.86 + (Math.random() * 100000 - 50000)),
+                        borderColor: '#6366f1',
+                        backgroundColor: 'rgba(99, 102, 241, 0.1)',
+                        tension: 0.4,
+                        fill: true,
+                        pointRadius: 3,
+                        pointBackgroundColor: '#6366f1'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: { ticks: { color: '#a5b4fc' }, grid: { color: 'rgba(99, 102, 241, 0.1)' } },
+                        x: { ticks: { color: '#a5b4fc' }, grid: { color: 'rgba(99, 102, 241, 0.1)' } }
+                    },
+                    plugins: { legend: { labels: { color: '#a5b4fc' } } }
+                }
+            });
+
+            // Allocation chart
+            new Chart(document.getElementById('allocationChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: ['Football', 'Basketball', 'Baseball', 'Soccer'],
+                    datasets: [{
+                        data: [42, 28, 18, 12],
+                        backgroundColor: ['#6366f1', '#3b82f6', '#10b981', '#f59e0b'],
+                        borderColor: 'rgba(15, 23, 42, 0.8)',
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { labels: { color: '#a5b4fc' } } }
+                }
+            });
+        }
+
+        function simulatePriceUpdate() {
+            const baseValue = 1282616.86;
+            const dailyChange = 951.86 + (Math.random() * 200 - 100);
+            const newValue = baseValue + dailyChange;
+            const change = (dailyChange / baseValue * 100).toFixed(2);
+            document.getElementById('portfolioValue').textContent = '$' + (newValue / 1000000).toFixed(2) + 'M';
+            document.getElementById('portfolioChange').textContent = `${dailyChange > 0 ? '↑' : '↓'} $${Math.abs(dailyChange).toFixed(2)} (April 24)`;
+            initializeTicker();
+        }
+
+        function executeTrade(event) {
+            event.preventDefault();
+            const symbol = document.getElementById('cardSelect').value;
+            const quantity = document.getElementById('quantity').value;
+            const action = document.getElementById('action').value;
+            const card = cardsData.find(c => c.symbol === symbol);
+
+            const tradeItem = document.createElement('div');
+            tradeItem.className = 'trade-item';
+            tradeItem.innerHTML = `
+                <div class="trade-info">
+                    <div class="trade-player">${card.player} - ${symbol}</div>
+                    <div class="trade-time">Just now</div>
+                </div>
+                <div class="trade-amount">${action === 'buy' ? '-' : '+'}$${(card.value * quantity).toFixed(2)}</div>
+            `;
+            document.getElementById('tradeList').prepend(tradeItem);
+            event.target.reset();
+            alert(`Trade executed: ${action.toUpperCase()} ${quantity} ${symbol}`);
+        }
+
+        function confirmSettlement() {
+            alert('Settlement confirmed! Transaction pending on blockchain...');
+        }
+
+        function openNotifications() {
+            alert('Notifications panel - Coming soon');
+        }
+
+        function exportData() {
+            const csv = 'Player,Symbol,Value\n' + 
+                        cardsData.map(c => `${c.player},${c.symbol},${c.value}`).join('\n');
+            const blob = new Blob([csv], { type: 'text/csv' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'verifyvault-portfolio.csv';
+            a.click();
+        }
+
+        function settingsPanel() {
+            alert('Settings panel - Customize your dashboard experience');
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            initializeCardSelect();
+            initializeTicker();
+            initializeCharts();
+            initializeAlerts();
+        });
+    </script>
+</body>
+</html>
