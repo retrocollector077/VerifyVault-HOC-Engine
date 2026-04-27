@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.29;
+pragma solidity 0.8.29;
 
 import "@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
@@ -7,50 +7,48 @@ import "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
 
 /**
  * @title EngineAuthority
- * @notice Central permission registry for Omega v7 system modules.
- *         Validates execution rights for subsystems.
- * @dev Roles:
+ * @notice Central permission registry for Omega v7 institutional modules.
+ *         Validates execution rights for all subsystems.
+ *
+ * Roles:
  * - DEFAULT_ADMIN_ROLE: Full authority, can grant/revoke.
- * - ENGINE_ROLE: Arbitrage, liquidation, core.
- * - ROUTER_ROLE: Swap/bridge router.
- * - ORACLE_ROLE: Oracle feeders.
- * - VAULT_ROLE: Vaults, NFT vaults, BTBBZ vault.
+ * - ENGINE_ROLE: Arbitrage, liquidation, core modules.
+ * - ROUTER_ROLE: OmegaRouter, swap/bridge router.
+ * - ORACLE_ROLE: OracleHub feeders.
+ * - VAULT_ROLE: MultiVault, NFT vaults, BTBBZ vault.
  * - LIQUIDATOR_ROLE: Liquidation bots.
- * - FLASHLOAN_ROLE: Flashloan providers.
- * - OFFRAMP_ROLE: USDC off-ramp.
+ * - FLASHLOAN_ROLE: FlashLoan providers.
+ * - OFFRAMP_ROLE: USDC off-ramp settlement.
  */
 contract EngineAuthority is Initializable, AccessControlUpgradeable, UUPSUpgradeable {
-    // Role definitions
-    bytes32 public constant ENGINE_ROLE = keccak256("ENGINE_ROLE");
-    bytes32 public constant ROUTER_ROLE = keccak256("ROUTER_ROLE");
-    bytes32 public constant ORACLE_ROLE = keccak256("ORACLE_ROLE");
-    bytes32 public constant VAULT_ROLE = keccak256("VAULT_ROLE");
-    bytes32 public constant LIQUIDATOR_ROLE = keccak256("LIQUIDATOR_ROLE");
-    bytes32 public constant FLASHLOAN_ROLE = keccak256("FLASHLOAN_ROLE");
-    bytes32 public constant OFFRAMP_ROLE = keccak256("OFFRAMP_ROLE");
+    // Define roles
+    bytes32 public constant ENGINE_ROLE       = keccak256("ENGINE_ROLE");
+    bytes32 public constant ROUTER_ROLE       = keccak256("ROUTER_ROLE");
+    bytes32 public constant ORACLE_ROLE       = keccak256("ORACLE_ROLE");
+    bytes32 public constant VAULT_ROLE        = keccak256("VAULT_ROLE");
+    bytes32 public constant LIQUIDATOR_ROLE   = keccak256("LIQUIDATOR_ROLE");
+    bytes32 public constant FLASHLOAN_ROLE    = keccak256("FLASHLOAN_ROLE");
+    bytes32 public constant OFFRAMP_ROLE      = keccak256("OFFRAMP_ROLE");
 
-    // Events
     event RoleGranted(address indexed actor, bytes32 role);
     event RoleRevoked(address indexed actor, bytes32 role);
 
-    /**
-     * @notice Initialize the contract with an admin address
-     * @param admin Address of the initial admin with all permissions
-     */
+    /// @dev Initialize with admin address
     function initialize(address admin) public initializer {
-        require(admin != address(0), "Invalid admin address");
-        __AccessControlUpgradeable_init();
+        require(admin != address(0), "Invalid admin");
+        __AccessControl_init();
         __UUPSUpgradeable_init();
-        _setupRole(DEFAULT_ADMIN_ROLE, admin);
-        emit RoleGranted(admin, DEFAULT_ADMIN_ROLE);
+
+        _grantRole(DEFAULT_ADMIN_ROLE, admin);
     }
 
-    /**
-     * @dev Authorization for upgradeability
-     */
+    /// @dev Authorization for upgrades
     function _authorizeUpgrade(address newImplementation) internal override onlyRole(DEFAULT_ADMIN_ROLE) {}
 
-    // --- Role granting functions ---
+    // -----------------------------------------------------------
+    // Role Management Functions
+    // -----------------------------------------------------------
+
     function grantEngine(address actor) external onlyRole(DEFAULT_ADMIN_ROLE) {
         _grantRole(ENGINE_ROLE, actor);
         emit RoleGranted(actor, ENGINE_ROLE);
@@ -86,13 +84,19 @@ contract EngineAuthority is Initializable, AccessControlUpgradeable, UUPSUpgrade
         emit RoleGranted(actor, OFFRAMP_ROLE);
     }
 
-    // --- Role revocation ---
+    // -----------------------------------------------------------
+    // Role Revocation
+    // -----------------------------------------------------------
+
     function revokeRoleFrom(address actor, bytes32 role) external onlyRole(DEFAULT_ADMIN_ROLE) {
         _revokeRole(role, actor);
         emit RoleRevoked(actor, role);
     }
 
-    // --- View functions ---
+    // -----------------------------------------------------------
+    // View Helper Functions
+    // -----------------------------------------------------------
+
     function hasEngineAccess(address actor) external view returns (bool) {
         return hasRole(ENGINE_ROLE, actor);
     }
