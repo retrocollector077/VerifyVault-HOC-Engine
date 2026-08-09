@@ -724,13 +724,27 @@
 
             const tradeItem = document.createElement('div');
             tradeItem.className = 'trade-item';
-            tradeItem.innerHTML = `
-                <div class="trade-info">
-                    <div class="trade-player">${card.player} - ${symbol}</div>
-                    <div class="trade-time">Just now</div>
-                </div>
-                <div class="trade-amount">${action === 'buy' ? '-' : '+'}$${(card.value * quantity).toFixed(2)}</div>
-            `;
+
+            const tradeInfo = document.createElement('div');
+            tradeInfo.className = 'trade-info';
+
+            const tradePlayer = document.createElement('div');
+            tradePlayer.className = 'trade-player';
+            tradePlayer.textContent = `${card.player} - ${symbol}`;
+
+            const tradeTime = document.createElement('div');
+            tradeTime.className = 'trade-time';
+            tradeTime.textContent = 'Just now';
+
+            const tradeAmount = document.createElement('div');
+            tradeAmount.className = 'trade-amount';
+            tradeAmount.textContent = `${action === 'buy' ? '-' : '+'}$${(card.value * quantity).toFixed(2)}`;
+
+            tradeInfo.appendChild(tradePlayer);
+            tradeInfo.appendChild(tradeTime);
+            tradeItem.appendChild(tradeInfo);
+            tradeItem.appendChild(tradeAmount);
+
             document.getElementById('tradeList').prepend(tradeItem);
             event.target.reset();
             alert(`Trade executed: ${action.toUpperCase()} ${quantity} ${symbol}`);
