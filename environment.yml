@@ -3,71 +3,606 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python=3.10
-  - pip
+  - python=3.10  # or your preferred Python version
+  - pip:
+    - pip-tools
   - pip:
     - black
     - flake8
     - isort
     - mypy
-    - pip-tools
     - pre-commit
+  - pip:
     - autopep8
+  - pip:
     - scipy
+  - pip:
     - numpy
+  - pip:
     - pandas
+  - pip:
     - scikit-learn
+  - pip:
     - matplotlib
+  - pip:
     - seaborn
+  - pip:
     - tensorflow
+  - pip:
     - requests
+  - pip:
     - uvicorn
+  - pip:
     - gunicorn
+  - pip:
     - aiologger
+  - pip:
     - python-dotenv
+  - pip:
     - sqlparse
+  - pip:
     - psycopg2-binary
+  - pip:
     - dnspython
+  - pip:
     - cryptography
+  - pip:
     - pyjwt
+  - pip:
     - pydantic
+  - pip:
     - python-multipart
+  - pip:
     - fastapi
+  - pip:
     - connexion
+  - pip:
     - python-jose
+  - pip:
     - pyOpenSSL
+  - pip:
     - PyNaCl
+  - pip:
     - h5py
+  - pip:
     - psutil
+  - pip:
     - ldap3
+  - pip:
+    - pyopenssl
+  - pip:
     - idna
+  - pip:
     - certifi
+  - pip:
     - requests-toolbelt
+  - pip:
     - toml
+  - pip:
     - watchdog
+  - pip:
+    - watchdog-ext
+  - pip:
+    - pyinotify
+  - pip:
     - gitpython
+  - pip:
     - giturlparse
+  - pip:
     - memory-profiler
+  - pip:
     - redis
+  - pip:
     - aioredis
+  - pip:
     - motor
+  - pip:
     - pymongo
+  - pip:
     - aiomysql
+  - pip:
     - mysqlclient
+  - pip:
     - pyodbc
+  - pip:
     - asyncpg
+  - pip:
     - pynamodb
+  - pip:
     - cassandra-driver
+  - pip:
     - aiopg
+  - pip:
     - psycopg2
+  - pip:
     - sqlacodegen
+  - pip:
     - alembic
+  - pip:
     - ipython
+  - pip:
     - ipykernel
+  - pip:
+    - ipython-sphinx
+  - pip:
+    - ipython-parallel
+  - pip:
+    - ipython-parallel-zmq
+  - pip:
+    - ipython-parallel-client
+  - pip:
+    - ipython-parallel-manager
+  - pip:
+    - ipython-parallel-engine
+  - pip:
     - tornado
+  - pip:
+    - sqlparse
+  - pip:
     - tqdm
+  - pip:
     - pytz
+  - pip:
     - pyyaml
+  - pip:
     - packaging
+  - pip:
+    - packaging-extended
+  - pip:
+    - packaging-wheel
+  - pip:
     - python-dateutil
+  - pip:
+    - python-resolve
+  - pip:
     - python-iso8601
+  - pip:
+    - python-iso8601-extensions
+  - pip:
+    - python-dateutil-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
+  - pip:
+    - python-dateutil-extensions-iso8601-extensions-iso8601-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions-extensions
