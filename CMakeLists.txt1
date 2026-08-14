@@ -1,0 +1,8 @@
+- name: Check for CMakeLists.txt
+  run: |
+    if (Test-Path CMakeLists.txt) {
+      Write-Host "CMakeLists.txt found"
+    } else {
+      Write-Host "CMakeLists.txt NOT found"
+      Get-ChildItem -Recurse -Filter "CMakeLists.txt"
+    }
