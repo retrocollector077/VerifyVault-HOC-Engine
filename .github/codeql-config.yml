@@ -1,0 +1,5 @@
+name: "CodeQL Advanced Configuration"
+paths-ignore:
+  - "node_modules"
+  - ".git"
+  - ".github"
